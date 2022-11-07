@@ -11,41 +11,41 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = LCPSoftwareSolutions
 build_property.RootNamespace = LCPSoftwareSolutions
-build_property.ProjectDir = D:\Projects\Practica\LCPSoftwareSolutions\LCPSoftwareSolutions\
+build_property.ProjectDir = D:\Projects\lcpdesarrollos\LCPSoftwareSolutions\LCPSoftwareSolutions\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projects\Practica\LCPSoftwareSolutions\LCPSoftwareSolutions
+build_property.MSBuildProjectDirectory = D:\Projects\lcpdesarrollos\LCPSoftwareSolutions\LCPSoftwareSolutions
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/App.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/Counter.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/FetchData.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/Index.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/SurveyPrompt.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/_Imports.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/MainLayout.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8q2ku820ch
 
-[D:/Projects/Practica/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/NavMenu.razor]
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ovrmvw2ne9

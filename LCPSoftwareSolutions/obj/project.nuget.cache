@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m8faK3InM1R8YM0VErCyDoeTPcc7cdac4+/4kwMBZZ9Y+Hs1IG6M1Hg1VChlfonf+T6YHykHvhkxHeC4K/Y2BA==",
+  "dgSpecHash": "Hh/hMtNTgE1+/CYF7NIVKCBGV8ZLNmIAvin8zjzHnUWcl6hOeoN5vmkgDz+UAlvtFSlaqVZpijEC7G3ci9OsaQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Practica\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
+  "projectFilePath": "D:\\Projects\\lcpdesarrollos\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",

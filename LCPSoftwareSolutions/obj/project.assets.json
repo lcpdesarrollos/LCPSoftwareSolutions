@@ -1768,11 +1768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Practica\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
+      "projectUniqueName": "D:\\Projects\\lcpdesarrollos\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
       "projectName": "LCPSoftwareSolutions",
-      "projectPath": "D:\\Projects\\Practica\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
+      "projectPath": "D:\\Projects\\lcpdesarrollos\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
       "packagesPath": "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Practica\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\obj\\",
+      "outputPath": "D:\\Projects\\lcpdesarrollos\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
