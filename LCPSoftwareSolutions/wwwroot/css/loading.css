@@ -1,6 +1,6 @@
 ﻿
 #mainLoadin {
-    background: url("../images/2175194-01.svg") no-repeat center center fixed;
+    background: url("../images/background-loading.svg") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
