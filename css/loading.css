@@ -1,0 +1,48 @@
+﻿
+#mainLoadin {
+    background: url("../images/2175194-01.svg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#subLoadin {
+    background-color: transparent;
+    background-image: radial-gradient(at bottom right, #F7A928 5%, #000000 10%);
+    opacity: 0.6;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    background-size: cover;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+    .loading:after {
+        content: " ";
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        border-color: #ec9006 transparent #ec9006 transparent;
+        animation: loading 1.2s linear infinite;
+    }
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
