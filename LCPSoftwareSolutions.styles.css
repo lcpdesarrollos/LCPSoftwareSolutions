@@ -80,6 +80,53 @@ main[b-l8kics080v] {
         padding-right: 1.5rem !important;
     }
 }
+/* /Shared/MenuTop.razor.rz.scp.css */
+body[b-uz2jg9oq3p] {
+    background-color: #333333;
+}
+
+
+.top-row[b-uz2jg9oq3p] {
+    background-color: #333;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-uz2jg9oq3p]  a,
+    .top-row[b-uz2jg9oq3p] 
+    .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+        .top-row[b-uz2jg9oq3p] 
+        a:hover,
+        .top-row[b-uz2jg9oq3p] 
+        .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row[b-uz2jg9oq3p] 
+        a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+.btn-outline-primary[b-uz2jg9oq3p] {
+    color: #ffffff;
+    border-color: #F7A928
+}
+
+    .btn-outline-primary:hover[b-uz2jg9oq3p] {
+        color: #fff;
+        background-color: #075E54;
+        border-color: #F7A928
+    }
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-4numrlkgzd] {
     background-color: rgba(255, 255, 255, 0.1);
