@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hh/hMtNTgE1+/CYF7NIVKCBGV8ZLNmIAvin8zjzHnUWcl6hOeoN5vmkgDz+UAlvtFSlaqVZpijEC7G3ci9OsaQ==",
+  "dgSpecHash": "N7IWF9Mx7ws7J047DD+RdhIdsNAKSji4fIDMJyNzeZCThtlypE4u1RvNrDqRjfYeHFkR6Pr6ENLgJK3vaDrr5Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\lcpdesarrollos\\LCPSoftwareSolutions\\LCPSoftwareSolutions\\LCPSoftwareSolutions.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,8 @@
     "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis Carlos Perez\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,10 +5,8 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = browser
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = true
-build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = LCPSoftwareSolutions
 build_property.RootNamespace = LCPSoftwareSolutions
 build_property.ProjectDir = D:\Projects\lcpdesarrollos\LCPSoftwareSolutions\LCPSoftwareSolutions\
@@ -45,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8q2ku820ch
+
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/MenuTop.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1lbnVUb3AucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1un44atpna
 
 [D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
