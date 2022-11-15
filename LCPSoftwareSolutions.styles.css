@@ -97,15 +97,16 @@ main[b-l8kics080v] {
     align-items: center;
     display: flex;
     text-align: center;
+    margin-left: 10rem;
 }
 
     .logo a[b-uz2jg9oq3p] {
         margin-left: 0.3rem;
     }
 
-    .logo a:hover[b-uz2jg9oq3p] {
-        text-decoration: none;
-    }
+        .logo a:hover[b-uz2jg9oq3p] {
+            text-decoration: none;
+        }
 
     .logo .logo-text-1[b-uz2jg9oq3p] {
         font-family: 'Encapsulate Plain BRK', sans-serif;
@@ -121,7 +122,6 @@ main[b-l8kics080v] {
 
     .logo img[b-uz2jg9oq3p] {
         width: 50px;
-        margin-left: 10rem;
     }
 
 .options[b-uz2jg9oq3p] {
@@ -147,7 +147,7 @@ a[b-uz2jg9oq3p] {
 
 .btn-whatsapp[b-uz2jg9oq3p] {
     color: #ffffff;
-    border-color: #F7A928
+    border-color: #F7A928;
 }
 
     .btn-whatsapp:hover[b-uz2jg9oq3p] {
@@ -155,6 +155,26 @@ a[b-uz2jg9oq3p] {
         background-color: #075E54;
         border-color: #F7A928
     }
+
+    .btn-whatsapp img[b-uz2jg9oq3p]
+    {
+        width: 20px;
+    }
+    /*@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}*/
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .logo[b-uz2jg9oq3p] {
+        margin-left: 1rem;
+    }
+
+    .options[b-uz2jg9oq3p] {
+        margin-right: 1rem;
+    }
+
+    a[b-uz2jg9oq3p] {
+        margin-left: 0.5rem;
+    }
+}
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-4numrlkgzd] {
     background-color: rgba(255, 255, 255, 0.1);
