@@ -1,45 +1,73 @@
-﻿body {
-    background-color: #333333;
-}
+﻿
 
 
-.top-row {
-    background-color: #333;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
+.menu-top {
+    height: 4rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #333;
+    color: #fff;
 }
 
-    .top-row ::deep a,
-    .top-row ::deep
-    .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-        color: #ffffff;
+.logo {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+    .logo a {
+        margin-left: 0.3rem;
     }
 
-        .top-row ::deep
-        a:hover,
-        .top-row ::deep
-        .btn-link:hover {
-            text-decoration: underline;
-        }
+    .logo a:hover {
+        text-decoration: none;
+    }
 
-        .top-row ::deep
-        a:first-child {
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+    .logo .logo-text-1 {
+        font-family: 'Encapsulate Plain BRK', sans-serif;
+        font-family: 'Encapsulate BRK', sans-serif;
+        font-size: 30px;
+    }
 
-.btn-outline-primary {
+    .logo .logo-text-2 {
+        font-family: 'Roboto Condensed';
+        font-size: 20px;
+        margin-left: 0.3rem;
+    }
+
+    .logo img {
+        width: 50px;
+        margin-left: 10rem;
+    }
+
+.options {
+    align-items: center;
+    margin-right: 10rem;
+}
+
+
+a {
+    white-space: nowrap;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #ffffff;
+}
+
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+.btn-whatsapp {
     color: #ffffff;
     border-color: #F7A928
 }
 
-    .btn-outline-primary:hover {
+    .btn-whatsapp:hover {
         color: #fff;
         background-color: #075E54;
         border-color: #F7A928
