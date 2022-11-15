@@ -14,15 +14,16 @@
     align-items: center;
     display: flex;
     text-align: center;
+    margin-left: 10rem;
 }
 
     .logo a {
         margin-left: 0.3rem;
     }
 
-    .logo a:hover {
-        text-decoration: none;
-    }
+        .logo a:hover {
+            text-decoration: none;
+        }
 
     .logo .logo-text-1 {
         font-family: 'Encapsulate Plain BRK', sans-serif;
@@ -38,7 +39,6 @@
 
     .logo img {
         width: 50px;
-        margin-left: 10rem;
     }
 
 .options {
@@ -64,7 +64,7 @@ a {
 
 .btn-whatsapp {
     color: #ffffff;
-    border-color: #F7A928
+    border-color: #F7A928;
 }
 
     .btn-whatsapp:hover {
@@ -72,3 +72,23 @@ a {
         background-color: #075E54;
         border-color: #F7A928
     }
+
+    .btn-whatsapp img
+    {
+        width: 20px;
+    }
+    /*@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}*/
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .logo {
+        margin-left: 1rem;
+    }
+
+    .options {
+        margin-right: 1rem;
+    }
+
+    a {
+        margin-left: 0.5rem;
+    }
+}
