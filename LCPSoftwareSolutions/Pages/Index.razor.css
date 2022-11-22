@@ -1,4 +1,9 @@
-﻿#Inicio {
+﻿
+img {
+    width: 100%;
+}
+
+#Inicio {
     position: relative;
 }
 
@@ -11,32 +16,40 @@
         width: 100%;
         top: 30%;
         left: 0;
-        z-index: 11;
+        z-index: 5;
         text-align: center;
         display: flex;
         justify-content: center;
         color: #fff;
     }
 
-.inicio-text div {
-    width: 60%;
-    background-color: rgba(0, 0, 0, .5);
-    padding: 2rem;
-}
+        #Inicio .inicio-text div {
+            width: 60%;
+            background-color: rgba(0, 0, 0, .5);
+            padding: 2rem;
+        }
 
-.inicio-text-1 {
-    font-size: 50px;
-    font-weight: 800;
-}
+    #Inicio .inicio-text-1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
 
-.inicio-text-2 {
-    margin-top: 150px;
-    font-size: 25px;
-}
+    #Inicio .inicio-text-2 {
+        margin-top: 150px;
+        font-size: 25px;
+    }
+
 
 #QueHacemos {
     display: flex;
-    background-color: red;
+    background-color: rgba(63, 80, 96, 0.15);
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
 }
+
+    #QueHacemos .text {
+        text-align: center;
+        font-size: 25px;
+    }
