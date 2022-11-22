@@ -45,7 +45,7 @@ img[b-1s30rs31ws] {
     display: flex;
     background-color: rgba(63, 80, 96, 0.15);
     justify-content: center;
-    padding: 2rem;
+    padding: 5rem;
 }
 
     #QueHacemos .img[b-1s30rs31ws] {
@@ -67,6 +67,20 @@ img[b-1s30rs31ws] {
         #QueHacemos .text p[b-1s30rs31ws] {
             margin-top: 50px;
             font-size: 20px;
+        }
+
+    #QueHacemos .ComoLoHacemos[b-1s30rs31ws] {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #QueHacemos .ComoLoHacemos h1[b-1s30rs31ws]{
+        margin-bottom: 50px;
+    }
+
+        #QueHacemos .ComoLoHacemos h5[b-1s30rs31ws] {
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 /* /Shared/MainLayout.razor.rz.scp.css */
 
