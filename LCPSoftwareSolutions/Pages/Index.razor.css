@@ -44,7 +44,7 @@ img {
     display: flex;
     background-color: rgba(63, 80, 96, 0.15);
     justify-content: center;
-    padding: 2rem;
+    padding: 5rem;
 }
 
     #QueHacemos .img {
@@ -66,4 +66,18 @@ img {
         #QueHacemos .text p {
             margin-top: 50px;
             font-size: 20px;
+        }
+
+    #QueHacemos .ComoLoHacemos {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #QueHacemos .ComoLoHacemos h1{
+        margin-bottom: 50px;
+    }
+
+        #QueHacemos .ComoLoHacemos h5 {
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
