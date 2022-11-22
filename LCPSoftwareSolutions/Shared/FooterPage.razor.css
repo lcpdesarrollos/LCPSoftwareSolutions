@@ -1,0 +1,39 @@
+﻿
+
+#footer {
+    background-color: #333;
+    padding: 1.5rem;
+}
+
+    #footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+        #footer .logo .logo-text-1 {
+            font-family: 'Encapsulate Plain BRK', sans-serif;
+            font-family: 'Encapsulate BRK', sans-serif;
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        #footer .logo .logo-text-2 {
+            font-family: 'Roboto Condensed';
+            font-size: 16px;
+            margin-left: 0.3rem;
+            color: #ffffff;
+        }
+
+    #footer .social {
+        display: flex;
+        justify-content: center;
+    }
+
+        #footer .social a {
+            padding: 10px;
+        }
+
+        #footer .social img {
+            width: 30px;
+            height: 30px;
+        }

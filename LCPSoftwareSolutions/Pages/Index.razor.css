@@ -73,9 +73,9 @@ img {
         text-align: center;
     }
 
-    #QueHacemos .ComoLoHacemos h1{
-        margin-bottom: 50px;
-    }
+        #QueHacemos .ComoLoHacemos h1 {
+            margin-bottom: 50px;
+        }
 
         #QueHacemos .ComoLoHacemos h5 {
             margin-top: 20px;
@@ -92,16 +92,17 @@ img {
 
     #Servicios .servicios {
         margin-top: 50px;
-        display:flex;
-        justify-content:center;
+        display: flex;
+        justify-content: center;
     }
 
-    #Servicios .servicios div {
-        box-shadow: 0px 0px 10px 0px #FFAA01;
-        padding:1rem;
-        margin:1rem;
-        width:1000px;
-    }
+        #Servicios .servicios div {
+            box-shadow: 0px 0px 10px 0px #FFAA01;
+            padding: 1rem;
+            margin: 1rem;
+            width: 1000px;
+        }
+
         #Servicios .servicios img {
             text-align: justify;
             height: 50%;
@@ -116,3 +117,36 @@ img {
         #Servicios .servicios p {
             text-align: justify;
         }
+
+#Tecnologias {
+    background-color: rgba(63, 80, 96, 0.15);
+    padding: 5rem;
+    text-align: center;
+}
+
+
+    #Tecnologias h1 {
+        display: flex;
+        background-color: rgba(63, 80, 96, 0.15);
+        justify-content: center;
+        padding: 5rem;
+        margin-bottom: 50px;
+    }
+
+    #Tecnologias .technologies {
+        display: flex;
+        justify-content: center;
+    }
+
+        #Tecnologias .technologies div {
+            padding: 1rem;
+        }
+
+        #Tecnologias .technologies h5 {
+            font-weight: 600;
+        }
+            #Tecnologias .technologies div img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
