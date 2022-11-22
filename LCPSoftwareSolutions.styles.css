@@ -1,4 +1,9 @@
 /* /Pages/Index.razor.rz.scp.css */
+
+img[b-1s30rs31ws] {
+    width: 100%;
+}
+
 #Inicio[b-1s30rs31ws] {
     position: relative;
 }
@@ -12,35 +17,43 @@
         width: 100%;
         top: 30%;
         left: 0;
-        z-index: 11;
+        z-index: 5;
         text-align: center;
         display: flex;
         justify-content: center;
         color: #fff;
     }
 
-.inicio-text div[b-1s30rs31ws] {
-    width: 60%;
-    background-color: rgba(0, 0, 0, .5);
-    padding: 2rem;
-}
+        #Inicio .inicio-text div[b-1s30rs31ws] {
+            width: 60%;
+            background-color: rgba(0, 0, 0, .5);
+            padding: 2rem;
+        }
 
-.inicio-text-1[b-1s30rs31ws] {
-    font-size: 50px;
-    font-weight: 800;
-}
+    #Inicio .inicio-text-1[b-1s30rs31ws] {
+        font-size: 50px;
+        font-weight: 800;
+    }
 
-.inicio-text-2[b-1s30rs31ws] {
-    margin-top: 150px;
-    font-size: 25px;
-}
+    #Inicio .inicio-text-2[b-1s30rs31ws] {
+        margin-top: 150px;
+        font-size: 25px;
+    }
+
 
 #QueHacemos[b-1s30rs31ws] {
     display: flex;
-    background-color: red;
+    background-color: rgba(63, 80, 96, 0.15);
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
 }
+
+    #QueHacemos .text[b-1s30rs31ws] {
+        text-align: center;
+        font-size: 25px;
+    }
 /* /Shared/MainLayout.razor.rz.scp.css */
 
 main[b-l8kics080v] {
@@ -60,6 +73,9 @@ main[b-l8kics080v] {
     background-color: #333;
     color: #fff;
     font-size: 14px;
+    position:fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 .logo[b-uz2jg9oq3p] {
