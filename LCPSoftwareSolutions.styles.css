@@ -44,15 +44,19 @@ img[b-1s30rs31ws] {
 #QueHacemos[b-1s30rs31ws] {
     display: flex;
     background-color: rgba(63, 80, 96, 0.15);
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 2rem;
 }
 
     #QueHacemos .text[b-1s30rs31ws] {
         text-align: center;
         font-size: 25px;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
+    }
+
+    #QueHacemos .img[b-1s30rs31ws] {
+        box-shadow: -20px -10px #075E54;
+        padding-left: 0;
     }
 /* /Shared/MainLayout.razor.rz.scp.css */
 
