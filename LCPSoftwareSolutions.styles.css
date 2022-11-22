@@ -74,9 +74,9 @@ img[b-1s30rs31ws] {
         text-align: center;
     }
 
-    #QueHacemos .ComoLoHacemos h1[b-1s30rs31ws]{
-        margin-bottom: 50px;
-    }
+        #QueHacemos .ComoLoHacemos h1[b-1s30rs31ws] {
+            margin-bottom: 50px;
+        }
 
         #QueHacemos .ComoLoHacemos h5[b-1s30rs31ws] {
             margin-top: 20px;
@@ -93,16 +93,17 @@ img[b-1s30rs31ws] {
 
     #Servicios .servicios[b-1s30rs31ws] {
         margin-top: 50px;
-        display:flex;
-        justify-content:center;
+        display: flex;
+        justify-content: center;
     }
 
-    #Servicios .servicios div[b-1s30rs31ws] {
-        box-shadow: 0px 0px 10px 0px #FFAA01;
-        padding:1rem;
-        margin:1rem;
-        width:1000px;
-    }
+        #Servicios .servicios div[b-1s30rs31ws] {
+            box-shadow: 0px 0px 10px 0px #FFAA01;
+            padding: 1rem;
+            margin: 1rem;
+            width: 1000px;
+        }
+
         #Servicios .servicios img[b-1s30rs31ws] {
             text-align: justify;
             height: 50%;
@@ -116,6 +117,79 @@ img[b-1s30rs31ws] {
 
         #Servicios .servicios p[b-1s30rs31ws] {
             text-align: justify;
+        }
+
+#Tecnologias[b-1s30rs31ws] {
+    background-color: rgba(63, 80, 96, 0.15);
+    padding: 5rem;
+    text-align: center;
+}
+
+
+    #Tecnologias h1[b-1s30rs31ws] {
+        display: flex;
+        background-color: rgba(63, 80, 96, 0.15);
+        justify-content: center;
+        padding: 5rem;
+        margin-bottom: 50px;
+    }
+
+    #Tecnologias .technologies[b-1s30rs31ws] {
+        display: flex;
+        justify-content: center;
+    }
+
+        #Tecnologias .technologies div[b-1s30rs31ws] {
+            padding: 1rem;
+        }
+
+        #Tecnologias .technologies h5[b-1s30rs31ws] {
+            font-weight: 600;
+        }
+            #Tecnologias .technologies div img[b-1s30rs31ws] {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+/* /Shared/FooterPage.razor.rz.scp.css */
+
+
+#footer[b-541lxzd9jm] {
+    background-color: #333;
+    padding: 1.5rem;
+}
+
+    #footer .logo[b-541lxzd9jm] {
+        display: flex;
+        justify-content: center;
+    }
+
+        #footer .logo .logo-text-1[b-541lxzd9jm] {
+            font-family: 'Encapsulate Plain BRK', sans-serif;
+            font-family: 'Encapsulate BRK', sans-serif;
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        #footer .logo .logo-text-2[b-541lxzd9jm] {
+            font-family: 'Roboto Condensed';
+            font-size: 16px;
+            margin-left: 0.3rem;
+            color: #ffffff;
+        }
+
+    #footer .social[b-541lxzd9jm] {
+        display: flex;
+        justify-content: center;
+    }
+
+        #footer .social a[b-541lxzd9jm] {
+            padding: 10px;
+        }
+
+        #footer .social img[b-541lxzd9jm] {
+            width: 30px;
+            height: 30px;
         }
 /* /Shared/MainLayout.razor.rz.scp.css */
 
