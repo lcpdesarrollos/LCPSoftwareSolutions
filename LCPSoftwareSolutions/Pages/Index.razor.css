@@ -50,6 +50,7 @@ img {
     #QueHacemos .img {
         box-shadow: -20px -10px #075E54;
         padding-left: 0;
+        height: 50%;
     }
 
     #QueHacemos .text {
