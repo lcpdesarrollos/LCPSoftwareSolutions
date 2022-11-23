@@ -6,28 +6,30 @@ img[b-1s30rs31ws] {
 
 #Inicio[b-1s30rs31ws] {
     position: relative;
+    background: url("images/Background-Computer.jpg") no-repeat center center fixed;
+    height: 1024px;
+    background-size: cover;
 }
-
-    #Inicio img[b-1s30rs31ws] {
-        width: 100%;
-    }
 
     #Inicio .inicio-text[b-1s30rs31ws] {
         position: absolute;
-        width: 100%;
-        top: 30%;
-        left: 0;
-        z-index: 5;
-        text-align: center;
         display: flex;
         justify-content: center;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        z-index: 5;
         color: #fff;
+        background-color: rgba(0, 0, 0, .5);
+        height: 1024px;
     }
 
         #Inicio .inicio-text div[b-1s30rs31ws] {
+            margin-top: 15%;
             width: 60%;
-            background-color: rgba(0, 0, 0, .5);
+            //background-color: rgba(0, 0, 0, .5);
             padding: 2rem;
+            //height: 100%;
         }
 
     #Inicio .inicio-text-1[b-1s30rs31ws] {
@@ -36,8 +38,8 @@ img[b-1s30rs31ws] {
     }
 
     #Inicio .inicio-text-2[b-1s30rs31ws] {
-        margin-top: 150px;
-        font-size: 25px;
+        margin-top: 50px;
+        font-size: 30px;
     }
 
 
