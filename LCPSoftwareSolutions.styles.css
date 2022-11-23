@@ -153,57 +153,58 @@ img[b-1s30rs31ws] {
                 border-radius: 50%;
                 background-size: cover;
             }
-/* /Pages/QueHacemosPage.razor.rz.scp.css */
+/* /Pages/QueHacemos.razor.rz.scp.css */
 
-img[b-jai2adli6f] {
+img[b-41an2pdr8w] {
     width: 100%;
 }
 
-#QueHacemos[b-jai2adli6f] {
+#QueHacemos[b-41an2pdr8w] {
     margin-top: 50px;
 }
 
-    #QueHacemos .container[b-jai2adli6f] {
+    #QueHacemos .container[b-41an2pdr8w] {
         margin-bottom: 50px;
     }
 
-        #QueHacemos .container p[b-jai2adli6f] {
+        #QueHacemos .container p[b-41an2pdr8w] {
             font-size: 30px;
             text-align: justify;
         }
 
-.TitleProceso[b-jai2adli6f] {
+.TitleProceso[b-41an2pdr8w] {
     background-color: rgba(63, 80, 96, 0.15);
     padding: 2rem;
     text-align: center;
 }
 
-.Proceso[b-jai2adli6f] {
+.Proceso[b-41an2pdr8w] {
     display: flex;
     justify-content: center;
 }
 
-    .Proceso div[b-jai2adli6f] {
+    .Proceso div[b-41an2pdr8w] {
         width: 100%;
         align-self: center;
     }
 
-    .Proceso .text[b-jai2adli6f]
+    .Proceso .text[b-41an2pdr8w]
     {
         text-align:center;
     }
 
-    .Proceso p[b-jai2adli6f] {
+    .Proceso p[b-41an2pdr8w] {
         text-align: justify;
         padding: 2rem;
         font-size: 20px;
     }
-/* /Pages/ServicesPage.razor.rz.scp.css */
-/* /Pages/TechnologiesPage.razor.rz.scp.css */
-<h3>TechnologiesPage</h3>
-
-@code[b-lp0b2selz7] {
-
+/* /Pages/Services.razor.rz.scp.css */
+img[b-78wnp1tsbh] {
+    width: 100%;
+}
+/* /Pages/Technologies.razor.rz.scp.css */
+img[b-8bowclznbr] {
+    width: 100%;
 }
 /* /Shared/FooterPage.razor.rz.scp.css */
 
