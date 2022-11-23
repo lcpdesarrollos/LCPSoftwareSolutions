@@ -17,7 +17,7 @@
 
     </div>
     <div class="options">
-        <a href="@currentUrl">Inicio</a>
+        <a href="@BaseUrl">Inicio</a>
         <a href="/quehacemos">Que Hacemos</a>
         <a href="/services">Servicios</a>
         <a href="#Tecnologias">Tecnologías</a>
@@ -33,10 +33,10 @@
 </div>
 
 @code {
-    private string currentUrl;
+    private string BaseUrl;
 
     protected override void OnInitialized()
     {
-        currentUrl = NavigationManager.Uri;
+        BaseUrl = NavigationManager.Uri;
     }
 }
