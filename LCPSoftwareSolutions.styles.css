@@ -204,10 +204,79 @@ img[b-41an2pdr8w] {
 img[b-78wnp1tsbh] {
     width: 100%;
 }
+
+#Servicios[b-78wnp1tsbh] {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+    #Servicios .services[b-78wnp1tsbh] {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+        #Servicios .services div[b-78wnp1tsbh] {
+            box-shadow: 0px 0px 10px 0px #FFAA01;
+            padding: 1rem;
+            margin: 1rem;
+            width: 1000px;
+        }
+
+        #Servicios .services img[b-78wnp1tsbh] {
+            text-align: justify;
+            height: 50%;
+        }
+
+        #Servicios .services h5[b-78wnp1tsbh] {
+            font-weight: 800;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        #Servicios .services p[b-78wnp1tsbh] {
+            text-align: justify;
+        }
 /* /Pages/Technologies.razor.rz.scp.css */
 img[b-8bowclznbr] {
     width: 100%;
 }
+#Tecnologias[b-8bowclznbr] {
+    background-color: rgba(63, 80, 96, 0.15);
+    padding: 5rem;
+    text-align: center;
+}
+
+
+    #Tecnologias h1[b-8bowclznbr] {
+        display: flex;
+        background-color: rgba(63, 80, 96, 0.15);
+        justify-content: center;
+        padding: 5rem;
+        margin-bottom: 50px;
+    }
+
+    #Tecnologias .technologies[b-8bowclznbr] {
+        display: flex;
+        justify-content: center;
+    }
+
+        #Tecnologias .technologies div[b-8bowclznbr] {
+            padding: 1rem;
+        }
+
+        #Tecnologias .technologies h5[b-8bowclznbr] {
+            font-weight: 600;
+        }
+
+        #Tecnologias .technologies div img[b-8bowclznbr] {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-size: cover;
+        }
 /* /Shared/FooterPage.razor.rz.scp.css */
 
 
