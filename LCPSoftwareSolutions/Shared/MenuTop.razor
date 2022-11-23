@@ -20,8 +20,8 @@
     <div class="options">
         <a href="@BaseUrl">Inicio</a>
         <a href="@BaseUrl/quehacemos">Que Hacemos</a>
-        <a href="/services">Servicios</a>
-        <a href="#Tecnologias">Tecnologías</a>
+        <a href="@BaseUrl/services">Servicios</a>
+        <a href="@BaseUrl/technologies">Tecnologías</a>
         @*<a href="#Productos">Productos</a>*@
         <a href="#Contactanos">Contactanos</a>
         <a href="https://api.whatsapp.com/send?phone=573052072324" title="whatsApp" target="_blank">
@@ -34,7 +34,7 @@
 </div>
 
 @code {
-    private string BaseUrl;
+    private string BaseUrl { get; set; }
 
     protected override void OnInitialized()
     {
