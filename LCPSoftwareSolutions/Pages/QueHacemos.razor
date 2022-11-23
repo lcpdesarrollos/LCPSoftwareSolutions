@@ -1,7 +1,4 @@
 ﻿@page "/quehacemos"
-@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
-@inject IWebAssemblyHostEnvironment HostEnvironment
-
 
 <TitlePage title="Que Hacemos" UrlImgae="images/TitleImage-QueHacemos.jpg" />
 
@@ -84,12 +81,6 @@
 
 
 @code {
-    private string BaseUrl { get; set; }
 
-    protected override void OnInitialized()
-    {
-        BaseUrl = HostEnvironment.BaseAddress;
-        BaseUrl = BaseUrl.Substring(0, BaseUrl.Length - 1);
-    }
-    }
+}
 
