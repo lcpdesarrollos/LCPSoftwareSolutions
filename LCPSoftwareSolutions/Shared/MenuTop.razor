@@ -39,5 +39,6 @@
     protected override void OnInitialized()
     {
         BaseUrl = HostEnvironment.BaseAddress;
+        BaseUrl = BaseUrl.Substring(0, BaseUrl.Length - 1);
     }
 }
