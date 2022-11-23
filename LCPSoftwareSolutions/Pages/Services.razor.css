@@ -1,3 +1,38 @@
 ﻿img {
     width: 100%;
 }
+
+#Servicios {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+    #Servicios .services {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+        #Servicios .services div {
+            box-shadow: 0px 0px 10px 0px #FFAA01;
+            padding: 1rem;
+            margin: 1rem;
+            width: 1000px;
+        }
+
+        #Servicios .services img {
+            text-align: justify;
+            height: 50%;
+        }
+
+        #Servicios .services h5 {
+            font-weight: 800;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        #Servicios .services p {
+            text-align: justify;
+        }
