@@ -1,3 +1,4 @@
+/* /Pages/Contacto.razor.rz.scp.css */
 /* /Pages/Index.razor.rz.scp.css */
 
 img[b-1s30rs31ws] {
@@ -244,23 +245,14 @@ img[b-8bowclznbr] {
     width: 100%;
 }
 #Tecnologias[b-8bowclznbr] {
-    background-color: rgba(63, 80, 96, 0.15);
-    padding: 5rem;
     text-align: center;
 }
-
-
-    #Tecnologias h1[b-8bowclznbr] {
-        display: flex;
-        background-color: rgba(63, 80, 96, 0.15);
-        justify-content: center;
-        padding: 5rem;
-        margin-bottom: 50px;
-    }
 
     #Tecnologias .technologies[b-8bowclznbr] {
         display: flex;
         justify-content: center;
+        background-color: rgba(63, 80, 96, 0.15);
+        padding: 5rem;
     }
 
         #Tecnologias .technologies div[b-8bowclznbr] {
