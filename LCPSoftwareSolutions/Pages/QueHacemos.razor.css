@@ -1,0 +1,44 @@
+﻿
+img {
+    width: 100%;
+}
+
+#QueHacemos {
+    margin-top: 50px;
+}
+
+    #QueHacemos .container {
+        margin-bottom: 50px;
+    }
+
+        #QueHacemos .container p {
+            font-size: 30px;
+            text-align: justify;
+        }
+
+.TitleProceso {
+    background-color: rgba(63, 80, 96, 0.15);
+    padding: 2rem;
+    text-align: center;
+}
+
+.Proceso {
+    display: flex;
+    justify-content: center;
+}
+
+    .Proceso div {
+        width: 100%;
+        align-self: center;
+    }
+
+    .Proceso .text
+    {
+        text-align:center;
+    }
+
+    .Proceso p {
+        text-align: justify;
+        padding: 2rem;
+        font-size: 20px;
+    }

@@ -3,37 +3,61 @@
 #footer {
     background-color: #333;
     padding: 1.5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-    #footer .logo {
-        display: flex;
-        justify-content: center;
+    #footer h5 {
+        text-align: center;
+        margin-bottom: 50px;
     }
 
-        #footer .logo .logo-text-1 {
-            font-family: 'Encapsulate Plain BRK', sans-serif;
-            font-family: 'Encapsulate BRK', sans-serif;
-            font-size: 30px;
-            color: #ffffff;
+    #footer
+    .footer-contacto,
+    .footer-services,
+    .footer-social {
+        padding: 1rem;
+        margin: 1rem;
+        width: 50%;
+    }
+        #footer .footer-contacto .informacion {
+            margin-top: 50px;
+            text-align: left;
         }
-
-        #footer .logo .logo-text-2 {
-            font-family: 'Roboto Condensed';
-            font-size: 16px;
-            margin-left: 0.3rem;
-            color: #ffffff;
+        #footer .footer-contacto .informacion label {
+            color: #F7A928;
+            font-weight: 800;
         }
+    
 
-    #footer .social {
+
+#footer .footer-contacto .logo {
+    display: flex;
+    justify-content: center;
+}
+
+            #footer .footer-contacto .logo .logo-text-1 {
+                font-family: 'Encapsulate Plain BRK', sans-serif;
+                font-family: 'Encapsulate BRK', sans-serif;
+                font-size: 40px;
+            }
+
+            #footer .footer-contacto .logo .logo-text-2 {
+                font-family: 'Roboto Condensed';
+                font-size: 20px;
+                margin-left: 0.3rem;
+            }
+    #footer .footer-social .icons {
         display: flex;
-        justify-content: center;
+        justify-content:center;
     }
 
-        #footer .social a {
-            padding: 10px;
-        }
+    #footer .footer-social a {
+        padding: 1rem;
+    }
 
-        #footer .social img {
+        #footer .footer-social a img {
             width: 30px;
-            height: 30px;
         }

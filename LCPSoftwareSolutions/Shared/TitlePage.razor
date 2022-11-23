@@ -1,0 +1,27 @@
+﻿
+<section id="Main">
+    <div>
+        <div class="text">
+            <div>
+                <span>
+                    @Title
+                </span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<style>
+    #Main {
+        background: url("@UrlImgae") no-repeat center center fixed;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public string Title { set; get; }
+
+    [Parameter]
+    public string UrlImgae { set; get; }
+}

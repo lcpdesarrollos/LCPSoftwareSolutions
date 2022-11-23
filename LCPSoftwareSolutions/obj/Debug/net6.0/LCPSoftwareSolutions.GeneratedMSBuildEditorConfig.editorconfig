@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-lpouqkcqt2
 
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Pages/QueHacemos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlSGFjZW1vcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hxr2e2n9g6
+
 [D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/FooterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3RlclBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yhhqe8xih5
@@ -39,3 +43,7 @@ build_metadata.AdditionalFiles.CssScope = b-8q2ku820ch
 [D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/MenuTop.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1lbnVUb3AucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1un44atpna
+
+[D:/Projects/lcpdesarrollos/LCPSoftwareSolutions/LCPSoftwareSolutions/Shared/TitlePage.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRpdGxlUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-oam2b56glt

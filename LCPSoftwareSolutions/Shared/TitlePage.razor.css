@@ -1,0 +1,29 @@
+﻿
+#Main {
+    position: relative;
+    background-size: cover;
+    height: 500px;
+}
+
+    #Main .text {
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        left: 0;
+        z-index: 5;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    }
+
+        #Main .text div {
+            width: 60%;
+            background-color: rgba(0, 0, 0, .5);
+            padding: 2rem;
+        }
+
+            #Main .text div span {
+                font-size: 50px;
+                font-weight: 800;
+            }
