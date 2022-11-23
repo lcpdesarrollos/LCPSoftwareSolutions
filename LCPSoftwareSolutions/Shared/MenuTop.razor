@@ -1,4 +1,5 @@
-﻿@inject NavigationManager NavigationManager
+﻿@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@inject IWebAssemblyHostEnvironment HostEnvironment
 
 <div class="menu-top">
     <div class="logo">
@@ -37,6 +38,6 @@
 
     protected override void OnInitialized()
     {
-        BaseUrl = NavigationManager.Uri;
+        BaseUrl = HostEnvironment.BaseAddress;
     }
 }
