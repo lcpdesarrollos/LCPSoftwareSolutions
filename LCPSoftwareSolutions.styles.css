@@ -153,45 +153,114 @@ img[b-1s30rs31ws] {
                 border-radius: 50%;
                 background-size: cover;
             }
+/* /Pages/QueHacemos.razor.rz.scp.css */
+
+img[b-41an2pdr8w] {
+    width: 100%;
+}
+
+#QueHacemos[b-41an2pdr8w] {
+    margin-top: 50px;
+}
+
+    #QueHacemos .container[b-41an2pdr8w] {
+        margin-bottom: 50px;
+    }
+
+        #QueHacemos .container p[b-41an2pdr8w] {
+            font-size: 30px;
+            text-align: justify;
+        }
+
+.TitleProceso[b-41an2pdr8w] {
+    background-color: rgba(63, 80, 96, 0.15);
+    padding: 2rem;
+    text-align: center;
+}
+
+.Proceso[b-41an2pdr8w] {
+    display: flex;
+    justify-content: center;
+}
+
+    .Proceso div[b-41an2pdr8w] {
+        width: 100%;
+        align-self: center;
+    }
+
+    .Proceso .text[b-41an2pdr8w]
+    {
+        text-align:center;
+    }
+
+    .Proceso p[b-41an2pdr8w] {
+        text-align: justify;
+        padding: 2rem;
+        font-size: 20px;
+    }
 /* /Shared/FooterPage.razor.rz.scp.css */
 
 
 #footer[b-541lxzd9jm] {
     background-color: #333;
     padding: 1.5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-    #footer .logo[b-541lxzd9jm] {
-        display: flex;
-        justify-content: center;
+    #footer h5[b-541lxzd9jm] {
+        text-align: center;
+        margin-bottom: 50px;
     }
 
-        #footer .logo .logo-text-1[b-541lxzd9jm] {
-            font-family: 'Encapsulate Plain BRK', sans-serif;
-            font-family: 'Encapsulate BRK', sans-serif;
-            font-size: 30px;
-            color: #ffffff;
+    #footer
+    .footer-contacto[b-541lxzd9jm],
+    .footer-services[b-541lxzd9jm],
+    .footer-social[b-541lxzd9jm] {
+        padding: 1rem;
+        margin: 1rem;
+        width: 50%;
+    }
+        #footer .footer-contacto .informacion[b-541lxzd9jm] {
+            margin-top: 50px;
+            text-align: left;
         }
-
-        #footer .logo .logo-text-2[b-541lxzd9jm] {
-            font-family: 'Roboto Condensed';
-            font-size: 16px;
-            margin-left: 0.3rem;
-            color: #ffffff;
+        #footer .footer-contacto .informacion label[b-541lxzd9jm] {
+            color: #F7A928;
+            font-weight: 800;
         }
+    
 
-    #footer .social[b-541lxzd9jm] {
+
+#footer .footer-contacto .logo[b-541lxzd9jm] {
+    display: flex;
+    justify-content: center;
+}
+
+            #footer .footer-contacto .logo .logo-text-1[b-541lxzd9jm] {
+                font-family: 'Encapsulate Plain BRK', sans-serif;
+                font-family: 'Encapsulate BRK', sans-serif;
+                font-size: 40px;
+            }
+
+            #footer .footer-contacto .logo .logo-text-2[b-541lxzd9jm] {
+                font-family: 'Roboto Condensed';
+                font-size: 20px;
+                margin-left: 0.3rem;
+            }
+    #footer .footer-social .icons[b-541lxzd9jm] {
         display: flex;
-        justify-content: center;
+        justify-content:center;
     }
 
-        #footer .social a[b-541lxzd9jm] {
-            padding: 10px;
-        }
+    #footer .footer-social a[b-541lxzd9jm] {
+        padding: 1rem;
+    }
 
-        #footer .social img[b-541lxzd9jm] {
+        #footer .footer-social a img[b-541lxzd9jm] {
             width: 30px;
-            height: 30px;
         }
 /* /Shared/MainLayout.razor.rz.scp.css */
 
@@ -323,3 +392,33 @@ a[b-uz2jg9oq3p] {
         margin-left: 0.5rem;
     }
 }
+/* /Shared/TitlePage.razor.rz.scp.css */
+
+#Main[b-pvuf1gz493] {
+    position: relative;
+    background-size: cover;
+    height: 500px;
+}
+
+    #Main .text[b-pvuf1gz493] {
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        left: 0;
+        z-index: 5;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    }
+
+        #Main .text div[b-pvuf1gz493] {
+            width: 60%;
+            background-color: rgba(0, 0, 0, .5);
+            padding: 2rem;
+        }
+
+            #Main .text div span[b-pvuf1gz493] {
+                font-size: 50px;
+                font-weight: 800;
+            }
