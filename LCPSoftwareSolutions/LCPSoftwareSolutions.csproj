@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\ServicesPage.razor.css" />
     <None Remove="Shared\TitlePage.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Pages\ServicesPage.razor.css" />
     <Content Include="Shared\TitlePage.razor.css" />
   </ItemGroup>
 

@@ -1,4 +1,5 @@
 ﻿@page "/quehacemos"
+@inject NavigationManager NavigationManager
 
 
 <TitlePage title="Que Hacemos" UrlImgae="../images/TitleImage-QueHacemos.jpg" />
@@ -78,6 +79,13 @@
     </div>
 
 </section>
-@code {
 
+
+@code {
+    private string currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.Uri;
+    }
 }
