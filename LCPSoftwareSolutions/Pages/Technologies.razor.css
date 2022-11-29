@@ -1,6 +1,7 @@
 ﻿img {
     width: 100%;
 }
+
 #Tecnologias {
     text-align: center;
 }
@@ -25,4 +26,56 @@
             height: 100px;
             border-radius: 50%;
             background-size: cover;
+        }
+
+#DescriptionTechnologies {
+    margin-top: 50px;
+}
+
+.img-div-right {
+    border-radius: 0px 200px 200px 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.img-div-left {
+    border-radius: 200px 0px 0px 200px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.Proceso {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+    .Proceso .img {
+        width: 50%;
+        align-self: center;
+        background-color: rgba(63, 80, 96, 0.5);
+    }
+
+        .Proceso .img img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-size: cover;
+        }
+
+    .Proceso .text {
+        text-align: center;
+        width: 50%;
+    }
+        .Proceso .text h2 {
+            color: #F7A928;
+            font-weight: 800;
+        }
+
+        .Proceso .text p {
+            text-align: justify;
+            padding: 2rem;
+            font-size: 20px;
         }
