@@ -1,63 +1,91 @@
 ﻿
 
 #footer {
-    background-color: #333;
-    padding: 1.5rem;
+    background-color: #333333;
+    padding: 1rem;
     color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    width: 100%;
 }
 
     #footer h5 {
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
     }
 
     #footer
     .footer-contacto,
     .footer-services,
     .footer-social {
-        padding: 1rem;
-        margin: 1rem;
-        width: 50%;
+        margin: 1rem 10%;
+        width: 100%;
     }
-        #footer .footer-contacto .informacion {
-            margin-top: 50px;
-            text-align: left;
-        }
-        #footer .footer-contacto .informacion label {
-            color: #F7A928;
-            font-weight: 800;
-        }
-    
 
+    #footer .informacion {
+        margin-top: 30px;
+    }
 
-#footer .footer-contacto .logo {
-    display: flex;
-    justify-content: center;
-}
+    #footer h5 .logo-text-1 {
+        font-family: 'Encapsulate Plain BRK', sans-serif;
+        font-family: 'Encapsulate BRK', sans-serif;
+        font-size: 40px;
+        align-self: end;
+        font-weight: 100;
+    }
 
-            #footer .footer-contacto .logo .logo-text-1 {
-                font-family: 'Encapsulate Plain BRK', sans-serif;
-                font-family: 'Encapsulate BRK', sans-serif;
-                font-size: 40px;
-            }
+    #footer h5 .logo-text-2 {
+        font-family: 'Roboto Condensed';
+        font-size: 20px;
+        margin-left: 0.5rem;
+        align-self: end;
+    }
 
-            #footer .footer-contacto .logo .logo-text-2 {
-                font-family: 'Roboto Condensed';
-                font-size: 20px;
-                margin-left: 0.3rem;
-            }
+    #footer .footer-contacto .informacion label {
+        color: #F7A928;
+        font-weight: 800;
+    }
+
     #footer .footer-social .icons {
         display: flex;
-        justify-content:center;
+        justify-content: center;
     }
 
     #footer .footer-social a {
-        padding: 1rem;
+        margin: 0% 10%;
     }
 
         #footer .footer-social a img {
             width: 30px;
         }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    #footer {
+        display: block;
+    }
+
+        #footer
+        .footer-contacto,
+        .footer-services,
+        .footer-social {
+            margin-bottom: 50px;
+            margin: 0;
+        }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1201px) {
+}
