@@ -1,52 +1,53 @@
 ﻿@page "/contactanos"
+@using LCPSoftwareSolutions.Utilities;
 
-<TitlePage title="Contactatanos" UrlImgae="images/TitleImage-Contacto.jpg" />
+<TitlePage title="Contactatanos" UrlImgae="images/contactanos/Contacto.jpg" />
 
 <section id="Contacto">
+    @*<div class="col-8 formulario">
+    <form>
     <div class="row">
-        <div class="col-8 formulario">
-            <form>
-                <div class="row">
-                    <div class="col-6">
-                        <input type="text"
-                               class="form-control"
-                               placeholder="Nombre*"
-                               @bind="@Name"
-                               style="@(IsvalidateName ? string.Empty : "border: 2px solid red" )" />
-                    </div>
-                    <div class="col-6">
-                        <input type="text"
-                               class="form-control"
-                               placeholder="Celular*"
-                               @bind="@Celular"
-                               style="@(IsvalidateCelular ? string.Empty : "border: 2px solid red" )" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <textarea class="form-control"
-                                  placeholder="Mensaje*"
-                                  @bind="@Mensaje"
-                                  style="@(IsvalidateMensaje ? string.Empty : "border: 2px solid red" )" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <input type="text"
-                               class="form-control"
-                               placeholder="Correo Electronico*"
-                               @bind="@CorreoElectronico"
-                               style="@(IsvalidateCorreoElectronico ? string.Empty : "border: 2px solid red" )" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <input class="btn btn-warning btn-lg float-end" type="button" value="Enviar" @onclick="Send" />
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="col-4 informacion">
+    <div class="col-6">
+    <input type="text"
+    class="form-control"
+    placeholder="Nombre*"
+    @bind="@Name"
+    style="@(IsvalidateName ? string.Empty : "border: 2px solid red" )" />
+    </div>
+    <div class="col-6">
+    <input type="text"
+    class="form-control"
+    placeholder="Celular*"
+    @bind="@Celular"
+    style="@(IsvalidateCelular ? string.Empty : "border: 2px solid red" )" />
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <textarea class="form-control"
+    placeholder="Mensaje*"
+    @bind="@Mensaje"
+    style="@(IsvalidateMensaje ? string.Empty : "border: 2px solid red" )" />
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <input type="text"
+    class="form-control"
+    placeholder="Correo Electronico*"
+    @bind="@CorreoElectronico"
+    style="@(IsvalidateCorreoElectronico ? string.Empty : "border: 2px solid red" )" />
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <input class="btn btn-warning btn-lg float-end" type="button" value="Enviar" @onclick="Send" />
+    </div>
+    </div>
+    </form>
+    </div>*@
+    <div>
+        <div class="informacion">
             <h4>Información de Contacto</h4>
             <h6>CORREO ELECTRÓNICO</h6>
             <p>LCPDesarrollos@gmail.com</p>
@@ -65,6 +66,9 @@
                     <img src="images/contactanos/Whatsapp.png" />
                 </a>
             </div>
+        </div>
+        <div class="img">
+            <img src="images/contactanos/ContactEmailMessage.jpg"/>
         </div>
     </div>
 </section>
@@ -105,7 +109,7 @@
 
         if (IsvalidateName && IsvalidateCelular && IsvalidateMensaje && IsvalidateCorreoElectronico)
         {
-            
+            new Notificcion().SendEmail();
         }
 
 

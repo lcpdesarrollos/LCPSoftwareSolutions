@@ -5,7 +5,7 @@ namespace LCPSoftwareSolutions.Utilities
 {
     public class Notificcion
     {
-        public void SendEmail(string EmailTo, string Code)
+        public void SendEmail()
         {
             try
             {
@@ -14,7 +14,7 @@ namespace LCPSoftwareSolutions.Utilities
                 string? UserMail = "lcpdesarrollos@gmail.com";
                 string? PasswordMail = "nXr7aFcMkj5Hf0Lg";
 
-                using (var smtpClient = new SmtpClient())
+                using (SmtpClient smtpClient = new SmtpClient())
                 {
                     NetworkCredential credential = new NetworkCredential();
                     credential.UserName = UserMail;
@@ -33,7 +33,7 @@ namespace LCPSoftwareSolutions.Utilities
                     //BodyHtml = BodyHtml.Replace("{@Code}", Code);
 
 
-                    MailMessage message = new MailMessage(UserMail, EmailTo);
+                    MailMessage message = new MailMessage(UserMail, UserMail);
                     message.Subject = "";
                     message.IsBodyHtml = true;
                     message.Body = "";
