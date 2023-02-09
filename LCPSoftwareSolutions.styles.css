@@ -92,31 +92,28 @@ img[b-1s30rs31ws] {
     background-size: cover;
 }
 
-    #Inicio .inicio-text[b-1s30rs31ws] {
+    #Inicio .portada[b-1s30rs31ws] {
         position: absolute;
         display: flex;
         justify-content: center;
         text-align: center;
         width: 100%;
-        left: 0;
-        z-index: 5;
         color: #fff;
         background-color: rgba(0, 0, 0, .5);
         height: 1024px;
     }
 
-        #Inicio .inicio-text div[b-1s30rs31ws] {
-            margin-top: 15%;
-            width: 60%;
-            padding: 2rem;
+        #Inicio .portada div[b-1s30rs31ws] {
+            margin-top: 10%;
+            padding: 5rem;
         }
 
-    #Inicio .inicio-text-1[b-1s30rs31ws] {
+    #Inicio .tittle[b-1s30rs31ws] {
         font-size: 60px;
         font-weight: 800;
     }
 
-    #Inicio .inicio-text-2[b-1s30rs31ws] {
+    #Inicio .description[b-1s30rs31ws] {
         margin-top: 50px;
         font-size: 35px;
     }
@@ -129,59 +126,60 @@ img[b-1s30rs31ws] {
     padding: 5rem;
 }
 
-    #QueHacemos .img[b-1s30rs31ws] {
+    #QueHacemos img[b-1s30rs31ws] {
         box-shadow: -20px -10px #075E54;
         padding-left: 0;
     }
 
-    #QueHacemos .text[b-1s30rs31ws] {
+    #QueHacemos .contenido[b-1s30rs31ws] {
         text-align: center;
         font-size: 25px;
         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
     }
 
-        #QueHacemos .text h1[b-1s30rs31ws] {
-            margin-top: 25px;
-            border-bottom: 2px solid #FFAA01;
-        }
-
-        #QueHacemos .text p[b-1s30rs31ws] {
-            margin-top: 50px;
-            font-size: 20px;
-        }
-
-    #QueHacemos .ComoLoHacemos[b-1s30rs31ws] {
-        margin-top: 50px;
-        text-align: center;
+    #QueHacemos h1[b-1s30rs31ws] {
+        margin-top: 25px;
+        border-bottom: 2px solid #FFAA01;
     }
 
-        #QueHacemos .ComoLoHacemos h1[b-1s30rs31ws] {
-            margin-bottom: 50px;
-        }
+    #QueHacemos p[b-1s30rs31ws] {
+        margin-top: 50px;
+        font-size: 20px;
+    }
 
-        #QueHacemos .ComoLoHacemos h5[b-1s30rs31ws] {
-            margin-top: 25px;
-            margin-bottom: 25px;
-            font-weight: 800;
-            font-size: 20px;
-        }
+#ComoLoHacemos[b-1s30rs31ws] {
+    text-align: center;
+    padding: 5rem 5rem 0rem 5rem;
+    font-size: 20px;
+}
 
-        #QueHacemos .ComoLoHacemos p[b-1s30rs31ws] {
-            font-size: 20px;
-        }
+    #ComoLoHacemos h1[b-1s30rs31ws] {
+        margin-bottom: 50px;
+    }
+
+    #ComoLoHacemos h5[b-1s30rs31ws] {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-weight: 800;
+    }
 
 #Servicios[b-1s30rs31ws] {
-    margin: 25px 0px 25px 0px;
-    display: flex;
+    padding: 5rem;
     justify-content: center;
     text-align: center;
+    font-size: 20px;
 }
 
     #Servicios .services[b-1s30rs31ws] {
-        margin-top: 25px;
+        margin-top: 50px;
         display: flex;
         justify-content: space-between;
     }
+
+        #Servicios .services img[b-1s30rs31ws] {
+            text-align: justify;
+            height: 50%;
+        }
 
         #Servicios .services div[b-1s30rs31ws] {
             box-shadow: 0px 0px 10px 0px #F7A928;
@@ -190,28 +188,22 @@ img[b-1s30rs31ws] {
             width: 100%;
         }
 
-        #Servicios .services img[b-1s30rs31ws] {
-            text-align: justify;
-            height: 50%;
-        }
-
         #Servicios .services h5[b-1s30rs31ws] {
             margin-top: 25px;
             margin-bottom: 25px;
-            font-size: 20px;
             font-weight: 800;
         }
 
         #Servicios .services p[b-1s30rs31ws] {
-            font-size: 20px;
             text-align: justify;
-            padding-bottom: 2.5rem;
+            padding-bottom: 2rem;
         }
 
 #Tecnologias[b-1s30rs31ws] {
     background-color: rgba(63, 80, 96, 0.15);
     padding: 5rem;
     text-align: center;
+    font-size: 20px;
 }
 
     #Tecnologias h1[b-1s30rs31ws] {
@@ -233,7 +225,6 @@ img[b-1s30rs31ws] {
 
         #Tecnologias .technologies h5[b-1s30rs31ws] {
             font-weight: 800;
-            font-size: 20px; 
         }
 
         #Tecnologias .technologies img[b-1s30rs31ws] {
@@ -246,11 +237,11 @@ img[b-1s30rs31ws] {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
     #Inicio[b-1s30rs31ws] {
-        height: 480px;
+        height: 680px;
     }
 
         #Inicio .inicio-text[b-1s30rs31ws] {
-            height: 480px;
+            height: 680px;
         }
 
             #Inicio .inicio-text div[b-1s30rs31ws] {
@@ -260,13 +251,13 @@ img[b-1s30rs31ws] {
             }
 
         #Inicio .inicio-text-1[b-1s30rs31ws] {
-            font-size: 20px;
+            font-size: 30px;
             font-weight: 800;
         }
 
         #Inicio .inicio-text-2[b-1s30rs31ws] {
-            margin-top: 20px;
-            font-size: 15px;
+            margin-top: 10px;
+            font-size: 20px;
         }
 
     #QueHacemos[b-1s30rs31ws] {
@@ -277,26 +268,17 @@ img[b-1s30rs31ws] {
             width: 100%;
         }
 
-        #QueHacemos .img[b-1s30rs31ws] {
+        #QueHacemos img[b-1s30rs31ws] {
             box-shadow: -10px -7px #075E54;
-            display: flex;
-            justify-content: center;
-            width: 100%;
         }
 
         #QueHacemos .text[b-1s30rs31ws] {
-            padding: 1rem;
-            font-size: 5px;
-            margin-top: 10px;
+            margin-top: 25px;
         }
-
-            #QueHacemos .text h1[b-1s30rs31ws] {
-                font-size: 20px;
-            }
 
             #QueHacemos .text p[b-1s30rs31ws] {
                 margin-top: 10px;
-                font-size: 15px;
+                font-size: 20px;
             }
 
         #QueHacemos .ComoLoHacemos[b-1s30rs31ws] {
@@ -350,7 +332,7 @@ img[b-1s30rs31ws] {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
+
     #Inicio[b-1s30rs31ws] {
         height: 768px;
     }
