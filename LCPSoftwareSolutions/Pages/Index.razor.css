@@ -10,31 +10,28 @@ img {
     background-size: cover;
 }
 
-    #Inicio .inicio-text {
+    #Inicio .portada {
         position: absolute;
         display: flex;
         justify-content: center;
         text-align: center;
         width: 100%;
-        left: 0;
-        z-index: 5;
         color: #fff;
         background-color: rgba(0, 0, 0, .5);
         height: 1024px;
     }
 
-        #Inicio .inicio-text div {
-            margin-top: 15%;
-            width: 60%;
-            padding: 2rem;
+        #Inicio .portada div {
+            margin-top: 10%;
+            padding: 5rem;
         }
 
-    #Inicio .inicio-text-1 {
+    #Inicio .tittle {
         font-size: 60px;
         font-weight: 800;
     }
 
-    #Inicio .inicio-text-2 {
+    #Inicio .description {
         margin-top: 50px;
         font-size: 35px;
     }
@@ -47,59 +44,60 @@ img {
     padding: 5rem;
 }
 
-    #QueHacemos .img {
+    #QueHacemos img {
         box-shadow: -20px -10px #075E54;
         padding-left: 0;
     }
 
-    #QueHacemos .text {
+    #QueHacemos .contenido {
         text-align: center;
         font-size: 25px;
         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
     }
 
-        #QueHacemos .text h1 {
-            margin-top: 25px;
-            border-bottom: 2px solid #FFAA01;
-        }
-
-        #QueHacemos .text p {
-            margin-top: 50px;
-            font-size: 20px;
-        }
-
-    #QueHacemos .ComoLoHacemos {
-        margin-top: 50px;
-        text-align: center;
+    #QueHacemos h1 {
+        margin-top: 25px;
+        border-bottom: 2px solid #FFAA01;
     }
 
-        #QueHacemos .ComoLoHacemos h1 {
-            margin-bottom: 50px;
-        }
+    #QueHacemos p {
+        margin-top: 50px;
+        font-size: 20px;
+    }
 
-        #QueHacemos .ComoLoHacemos h5 {
-            margin-top: 25px;
-            margin-bottom: 25px;
-            font-weight: 800;
-            font-size: 20px;
-        }
+#ComoLoHacemos {
+    text-align: center;
+    padding: 5rem 5rem 0rem 5rem;
+    font-size: 20px;
+}
 
-        #QueHacemos .ComoLoHacemos p {
-            font-size: 20px;
-        }
+    #ComoLoHacemos h1 {
+        margin-bottom: 50px;
+    }
+
+    #ComoLoHacemos h5 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-weight: 800;
+    }
 
 #Servicios {
-    margin: 25px 0px 25px 0px;
-    display: flex;
+    padding: 5rem;
     justify-content: center;
     text-align: center;
+    font-size: 20px;
 }
 
     #Servicios .services {
-        margin-top: 25px;
+        margin-top: 50px;
         display: flex;
         justify-content: space-between;
     }
+
+        #Servicios .services img {
+            text-align: justify;
+            height: 50%;
+        }
 
         #Servicios .services div {
             box-shadow: 0px 0px 10px 0px #F7A928;
@@ -108,28 +106,22 @@ img {
             width: 100%;
         }
 
-        #Servicios .services img {
-            text-align: justify;
-            height: 50%;
-        }
-
         #Servicios .services h5 {
             margin-top: 25px;
             margin-bottom: 25px;
-            font-size: 20px;
             font-weight: 800;
         }
 
         #Servicios .services p {
-            font-size: 20px;
             text-align: justify;
-            padding-bottom: 2.5rem;
+            padding-bottom: 2rem;
         }
 
 #Tecnologias {
     background-color: rgba(63, 80, 96, 0.15);
     padding: 5rem;
     text-align: center;
+    font-size: 20px;
 }
 
     #Tecnologias h1 {
@@ -151,7 +143,6 @@ img {
 
         #Tecnologias .technologies h5 {
             font-weight: 800;
-            font-size: 20px; 
         }
 
         #Tecnologias .technologies img {
@@ -164,11 +155,11 @@ img {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
     #Inicio {
-        height: 480px;
+        height: 680px;
     }
 
         #Inicio .inicio-text {
-            height: 480px;
+            height: 680px;
         }
 
             #Inicio .inicio-text div {
@@ -178,13 +169,13 @@ img {
             }
 
         #Inicio .inicio-text-1 {
-            font-size: 20px;
+            font-size: 30px;
             font-weight: 800;
         }
 
         #Inicio .inicio-text-2 {
-            margin-top: 20px;
-            font-size: 15px;
+            margin-top: 10px;
+            font-size: 20px;
         }
 
     #QueHacemos {
@@ -195,26 +186,17 @@ img {
             width: 100%;
         }
 
-        #QueHacemos .img {
+        #QueHacemos img {
             box-shadow: -10px -7px #075E54;
-            display: flex;
-            justify-content: center;
-            width: 100%;
         }
 
         #QueHacemos .text {
-            padding: 1rem;
-            font-size: 5px;
-            margin-top: 10px;
+            margin-top: 25px;
         }
-
-            #QueHacemos .text h1 {
-                font-size: 20px;
-            }
 
             #QueHacemos .text p {
                 margin-top: 10px;
-                font-size: 15px;
+                font-size: 20px;
             }
 
         #QueHacemos .ComoLoHacemos {
@@ -268,7 +250,7 @@ img {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
+
     #Inicio {
         height: 768px;
     }
