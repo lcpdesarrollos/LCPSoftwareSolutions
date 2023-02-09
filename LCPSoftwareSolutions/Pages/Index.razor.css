@@ -51,7 +51,7 @@ img {
 
     #QueHacemos .contenido {
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
     }
 
@@ -114,7 +114,7 @@ img {
 
         #Servicios .services p {
             text-align: justify;
-            padding-bottom: 2rem;
+            padding-bottom: 5rem;
         }
 
 #Tecnologias {
@@ -158,22 +158,22 @@ img {
         height: 680px;
     }
 
-        #Inicio .inicio-text {
+        #Inicio .portada {
             height: 680px;
         }
 
-            #Inicio .inicio-text div {
+            #Inicio .portada div {
                 margin-top: 20%;
                 width: 100%;
                 padding: 1rem;
             }
 
-        #Inicio .inicio-text-1 {
+        #Inicio .tittle {
             font-size: 30px;
             font-weight: 800;
         }
 
-        #Inicio .inicio-text-2 {
+        #Inicio .description {
             margin-top: 10px;
             font-size: 20px;
         }
@@ -184,44 +184,26 @@ img {
 
         #QueHacemos .col-6 {
             width: 100%;
+            margin-top: 25px;
         }
 
         #QueHacemos img {
             box-shadow: -10px -7px #075E54;
         }
 
-        #QueHacemos .text {
-            margin-top: 25px;
+    #ComoLoHacemos {
+        padding: 1rem;
+    }
+
+        #ComoLoHacemos .col-3 {
+            width: 100%;
         }
-
-            #QueHacemos .text p {
-                margin-top: 10px;
-                font-size: 20px;
-            }
-
-        #QueHacemos .ComoLoHacemos {
-            margin-top: 30px;
-        }
-
-            #QueHacemos .ComoLoHacemos h1 {
-                margin-bottom: 30px;
-            }
-
-            #QueHacemos .ComoLoHacemos h5 {
-                margin-top: 15px;
-                margin-bottom: 15px;
-            }
-
-            #QueHacemos .ComoLoHacemos .col-3 {
-                width: 100%;
-            }
 
     #Servicios {
         padding: 1rem;
     }
 
         #Servicios .services {
-            margin-top: 10px;
             display: block;
         }
 
@@ -235,18 +217,12 @@ img {
 
         #Tecnologias h1 {
             padding: 1rem;
-            margin-bottom: 30px;
         }
 
-        #Tecnologias .technologies {
-            overflow-x: scroll;
-            justify-content: stretch;
+        #Tecnologias .technologies img {
+            width: 70px;
+            height: 70px;
         }
-
-            #Tecnologias .technologies div img {
-                width: 70px;
-                height: 70px;
-            }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -255,23 +231,23 @@ img {
         height: 768px;
     }
 
-        #Inicio .inicio-text {
+        #Inicio .portada {
             height: 768px;
         }
 
-            #Inicio .inicio-text div {
-                margin-top: 30%;
+            #Inicio .portada div {
+                margin-top: 40%;
                 width: 100%;
                 padding: 1rem;
             }
 
-        #Inicio .inicio-text-1 {
-            font-size: 40px;
+        #Inicio .tittle {
+            font-size: 30px;
             font-weight: 800;
         }
 
-        #Inicio .inicio-text-2 {
-            margin-top: 20px;
+        #Inicio .description {
+            margin-top: 10px;
             font-size: 20px;
         }
 
@@ -281,53 +257,26 @@ img {
 
         #QueHacemos .col-6 {
             width: 100%;
+            margin-top: 25px;
         }
 
-        #QueHacemos .img {
-            box-shadow: -8px -7px #075E54;
-            display: flex;
-            justify-content: center;
+        #QueHacemos img {
+            box-shadow: -10px -7px #075E54;
+        }
+
+    #ComoLoHacemos {
+        padding: 1rem;
+    }
+
+        #ComoLoHacemos .col-3 {
             width: 100%;
         }
-
-        #QueHacemos .text {
-            padding: 1rem;
-            font-size: 5px;
-            margin-top: 10px;
-        }
-
-            #QueHacemos .text h1 {
-                font-size: 30px;
-            }
-
-            #QueHacemos .text p {
-                margin-top: 10px;
-                font-size: 15px;
-            }
-
-        #QueHacemos .ComoLoHacemos {
-            margin-top: 40px;
-        }
-
-            #QueHacemos .ComoLoHacemos h1 {
-                margin-bottom: 30px;
-            }
-
-            #QueHacemos .ComoLoHacemos h5 {
-                margin-top: 15px;
-                margin-bottom: 15px;
-            }
-
-            #QueHacemos .ComoLoHacemos .col-3 {
-                width: 100%;
-            }
 
     #Servicios {
         padding: 1rem;
     }
 
         #Servicios .services {
-            margin-top: 10px;
             display: block;
         }
 
@@ -341,239 +290,125 @@ img {
 
         #Tecnologias h1 {
             padding: 1rem;
-            margin-bottom: 30px;
         }
 
-        #Tecnologias .technologies {
-            overflow-x: scroll;
-            justify-content: stretch;
+        #Tecnologias .technologies img {
+            width: 70px;
+            height: 70px;
         }
-
-            #Tecnologias .technologies div img {
-                width: 70px;
-                height: 70px;
-            }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-    #Inicio {
-        height: 1024px;
+    #Inicio .portada div {
+        margin-top: 30%;
+        width: 100%;
+        padding: 1rem;
     }
 
-        #Inicio .inicio-text {
-            height: 1024px;
-        }
+    #Inicio .tittle {
+        font-size: 50px;
+        font-weight: 800;
+    }
 
-            #Inicio .inicio-text div {
-                margin-top: 40%;
-                width: 100%;
-                padding: 1rem;
-            }
-
-        #Inicio .inicio-text-1 {
-            font-size: 50px;
-            font-weight: 800;
-        }
-
-        #Inicio .inicio-text-2 {
-            margin-top: 20px;
-            font-size: 30px;
-        }
+    #Inicio .description {
+        margin-top: 10px;
+        font-size: 30px;
+    }
 
     #QueHacemos {
-        padding: 1rem;
+        padding: 2.5rem;
     }
 
         #QueHacemos .col-6 {
             width: 100%;
+            margin-top: 25px;
         }
 
-        #QueHacemos .img {
-            box-shadow: -8px -7px #075E54;
-            display: flex;
-            justify-content: center;
-            width: 100%;
+        #QueHacemos img {
+            box-shadow: -10px -7px #075E54;
         }
 
-        #QueHacemos .text {
-            padding: 1rem;
-            font-size: 5px;
-            margin-top: 10px;
+    #ComoLoHacemos {
+        padding: 2.5rem;
+    }
+
+        #ComoLoHacemos .col-3 {
+            width: 50%;
         }
-
-            #QueHacemos .text h1 {
-                font-size: 30px;
-            }
-
-            #QueHacemos .text p {
-                margin-top: 10px;
-                font-size: 20px;
-            }
-
-        #QueHacemos .ComoLoHacemos {
-            margin-top: 40px;
-            font-size: 20px;
-        }
-
-            #QueHacemos .ComoLoHacemos h1 {
-                margin-bottom: 30px;
-            }
-
-            #QueHacemos .ComoLoHacemos h5 {
-                margin-top: 15px;
-                margin-bottom: 15px;
-            }
-
-            #QueHacemos .ComoLoHacemos .col-3 {
-                width: 100%;
-            }
 
     #Servicios {
-        padding: 1rem;
-        font-size: 20px;
+        padding: 2.5rem;
     }
 
         #Servicios .services {
-            margin-top: 10px;
             display: block;
         }
-
-            #Servicios .services div {
-                margin: 10% 0%;
-            }
-
-    #Tecnologias {
-        padding: 1rem;
-    }
-
-        #Tecnologias h1 {
-            padding: 1rem;
-            margin-bottom: 30px;
-        }
-}
-
-/*@media screen and (min-width: 1025px) and (max-width: 1200px) {
-
-    #Inicio {
-        height: 1200px;
-    }
-
-        #Inicio .inicio-text {
-            height: 1200px;
-        }
-
-            #Inicio .inicio-text div {
-                margin-top: 40%;
-                width: 90%;
-                padding: 1rem;
-            }
-
-    #QueHacemos {
-        padding: 3rem;
-    }
-
-        #QueHacemos .col-6 {
-            width: 100%;
-        }
-
-        #QueHacemos .text {
-            margin-top: 20px;
-        }
-
-            #QueHacemos .text h1 {
-                font-size: 40px;
-            }
-
-            #QueHacemos .text p {
-                margin-top: 10px;
-                font-size: 25px;
-            }
-
-        #QueHacemos .ComoLoHacemos {
-            margin-top: 40px;
-            font-size: 20px;
-        }
-
-            #QueHacemos .ComoLoHacemos .col-3 {
-                width: 50%;
-            }
-
-                #QueHacemos .ComoLoHacemos .col-3 h5 {
-                    font-size: 25px;
-                }
-
-            #QueHacemos .ComoLoHacemos .col-3 p {
-                font-size: 25px;
-            }
-
-    #Servicios {
-        margin-top: 5%;
-        padding: 1rem;
-        font-size: 20px;
-    }
-
-        #Servicios .services {
-            margin-top: -5%;
-            display: block;
-            padding: 3rem;
-        }
-
-            #Servicios .services img {
-                width: 70%;
-            }
 
             #Servicios .services div {
                 margin: 5% 0%;
-                justify-content: ;
             }
 
-            #Servicios .services h5 {
-                font-size: 30px;
-            }
-
-            #Servicios .services p {
-                font-size: 30px;
-            }
+                #Servicios .services div img {
+                    width: 60%;
+                }
 
     #Tecnologias {
         padding: 1rem;
     }
 
         #Tecnologias h1 {
-            padding: 1rem;
-            margin-bottom: 30px;
+            padding: 2.5rem;
         }
-
-        #Tecnologias .technologies {
-            overflow-x: scroll;
-            justify-content: stretch;
-        }
-
-            #Tecnologias .technologies div img {
-                width: 150px;
-                height: 150px;
-            }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    #Inicio .portada div {
+        margin-top: 20%;
+    }
+
+    #QueHacemos {
+        padding: 3.5rem;
+    }
+
+        #QueHacemos .col-6 {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        #QueHacemos img {
+            box-shadow: -10px -7px #075E54;
+        }
+
+    #ComoLoHacemos {
+        padding: 3.5rem;
+    }
 
     #Servicios {
-        min-height: 100%;
+        padding: 3.5rem;
     }
 
         #Servicios .services div {
-            min-height: fit-content;
+            margin: 0% 1%;
         }
 
-    #Tecnologias .technologies {
-        overflow-x: scroll;
-        justify-content: stretch;
+        #Servicios .services p {
+            padding-bottom: 15rem;
+        }
+                
+
+    #Tecnologias {
+        padding: 1rem;
     }
 
-        #Tecnologias .technologies div img {
-            width: 150px;
-            height: 150px;
+        #Tecnologias h1 {
+            padding: 2.5rem;
         }
+}
 
-}*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    #Servicios .services p {
+        padding-bottom: 10rem;
+    }
+}
