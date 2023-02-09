@@ -108,19 +108,17 @@ img[b-1s30rs31ws] {
         #Inicio .inicio-text div[b-1s30rs31ws] {
             margin-top: 15%;
             width: 60%;
-            /*background-color: rgba(0, 0, 0, .5);*/
             padding: 2rem;
-            /*height: 100%;*/
         }
 
     #Inicio .inicio-text-1[b-1s30rs31ws] {
-        font-size: 50px;
+        font-size: 60px;
         font-weight: 800;
     }
 
     #Inicio .inicio-text-2[b-1s30rs31ws] {
         margin-top: 50px;
-        font-size: 30px;
+        font-size: 35px;
     }
 
 
@@ -134,17 +132,16 @@ img[b-1s30rs31ws] {
     #QueHacemos .img[b-1s30rs31ws] {
         box-shadow: -20px -10px #075E54;
         padding-left: 0;
-        height: 50%;
     }
 
     #QueHacemos .text[b-1s30rs31ws] {
-        padding: 1rem;
         text-align: center;
         font-size: 25px;
         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
     }
 
         #QueHacemos .text h1[b-1s30rs31ws] {
+            margin-top: 25px;
             border-bottom: 2px solid #FFAA01;
         }
 
@@ -154,7 +151,7 @@ img[b-1s30rs31ws] {
         }
 
     #QueHacemos .ComoLoHacemos[b-1s30rs31ws] {
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
     }
 
@@ -163,20 +160,25 @@ img[b-1s30rs31ws] {
         }
 
         #QueHacemos .ComoLoHacemos h5[b-1s30rs31ws] {
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
             font-weight: 800;
+            font-size: 20px;
+        }
+
+        #QueHacemos .ComoLoHacemos p[b-1s30rs31ws] {
+            font-size: 20px;
         }
 
 #Servicios[b-1s30rs31ws] {
-    padding: 5rem;
+    margin: 25px 0px 25px 0px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
     #Servicios .services[b-1s30rs31ws] {
-        margin-top: 50px;
+        margin-top: 25px;
         display: flex;
         justify-content: space-between;
     }
@@ -194,13 +196,16 @@ img[b-1s30rs31ws] {
         }
 
         #Servicios .services h5[b-1s30rs31ws] {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 20px;
             font-weight: 800;
-            margin-top: 40px;
-            margin-bottom: 30px;
         }
 
         #Servicios .services p[b-1s30rs31ws] {
+            font-size: 20px;
             text-align: justify;
+            padding-bottom: 2.5rem;
         }
 
 #Tecnologias[b-1s30rs31ws] {
@@ -214,12 +219,12 @@ img[b-1s30rs31ws] {
         background-color: rgba(63, 80, 96, 0.15);
         justify-content: center;
         padding: 5rem;
-        margin-bottom: 50px;
     }
 
     #Tecnologias .technologies[b-1s30rs31ws] {
         display: flex;
-        justify-content: center;
+        overflow-x: scroll;
+        justify-content: stretch;
     }
 
         #Tecnologias .technologies div[b-1s30rs31ws] {
@@ -227,10 +232,11 @@ img[b-1s30rs31ws] {
         }
 
         #Tecnologias .technologies h5[b-1s30rs31ws] {
-            font-weight: 600;
+            font-weight: 800;
+            font-size: 20px;
         }
 
-        #Tecnologias .technologies div img[b-1s30rs31ws] {
+        #Tecnologias .technologies img[b-1s30rs31ws] {
             width: 150px;
             height: 150px;
             border-radius: 50%;
@@ -344,16 +350,333 @@ img[b-1s30rs31ws] {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    #Inicio[b-1s30rs31ws] {
+        height: 768px;
+    }
+
+        #Inicio .inicio-text[b-1s30rs31ws] {
+            height: 768px;
+        }
+
+            #Inicio .inicio-text div[b-1s30rs31ws] {
+                margin-top: 30%;
+                width: 100%;
+                padding: 1rem;
+            }
+
+        #Inicio .inicio-text-1[b-1s30rs31ws] {
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        #Inicio .inicio-text-2[b-1s30rs31ws] {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+    #QueHacemos[b-1s30rs31ws] {
+        padding: 1rem;
+    }
+
+        #QueHacemos .col-6[b-1s30rs31ws] {
+            width: 100%;
+        }
+
+        #QueHacemos .img[b-1s30rs31ws] {
+            box-shadow: -8px -7px #075E54;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #QueHacemos .text[b-1s30rs31ws] {
+            padding: 1rem;
+            font-size: 5px;
+            margin-top: 10px;
+        }
+
+            #QueHacemos .text h1[b-1s30rs31ws] {
+                font-size: 30px;
+            }
+
+            #QueHacemos .text p[b-1s30rs31ws] {
+                margin-top: 10px;
+                font-size: 15px;
+            }
+
+        #QueHacemos .ComoLoHacemos[b-1s30rs31ws] {
+            margin-top: 40px;
+        }
+
+            #QueHacemos .ComoLoHacemos h1[b-1s30rs31ws] {
+                margin-bottom: 30px;
+            }
+
+            #QueHacemos .ComoLoHacemos h5[b-1s30rs31ws] {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            #QueHacemos .ComoLoHacemos .col-3[b-1s30rs31ws] {
+                width: 100%;
+            }
+
+    #Servicios[b-1s30rs31ws] {
+        padding: 1rem;
+    }
+
+        #Servicios .services[b-1s30rs31ws] {
+            margin-top: 10px;
+            display: block;
+        }
+
+            #Servicios .services div[b-1s30rs31ws] {
+                margin: 10% 0%;
+            }
+
+    #Tecnologias[b-1s30rs31ws] {
+        padding: 1rem;
+    }
+
+        #Tecnologias h1[b-1s30rs31ws] {
+            padding: 1rem;
+            margin-bottom: 30px;
+        }
+
+        #Tecnologias .technologies[b-1s30rs31ws] {
+            overflow-x: scroll;
+            justify-content: stretch;
+        }
+
+            #Tecnologias .technologies div img[b-1s30rs31ws] {
+                width: 70px;
+                height: 70px;
+            }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    #Inicio[b-1s30rs31ws] {
+        height: 1024px;
+    }
+
+        #Inicio .inicio-text[b-1s30rs31ws] {
+            height: 1024px;
+        }
+
+            #Inicio .inicio-text div[b-1s30rs31ws] {
+                margin-top: 40%;
+                width: 100%;
+                padding: 1rem;
+            }
+
+        #Inicio .inicio-text-1[b-1s30rs31ws] {
+            font-size: 50px;
+            font-weight: 800;
+        }
+
+        #Inicio .inicio-text-2[b-1s30rs31ws] {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+    #QueHacemos[b-1s30rs31ws] {
+        padding: 1rem;
+    }
+
+        #QueHacemos .col-6[b-1s30rs31ws] {
+            width: 100%;
+        }
+
+        #QueHacemos .img[b-1s30rs31ws] {
+            box-shadow: -8px -7px #075E54;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #QueHacemos .text[b-1s30rs31ws] {
+            padding: 1rem;
+            font-size: 5px;
+            margin-top: 10px;
+        }
+
+            #QueHacemos .text h1[b-1s30rs31ws] {
+                font-size: 30px;
+            }
+
+            #QueHacemos .text p[b-1s30rs31ws] {
+                margin-top: 10px;
+                font-size: 20px;
+            }
+
+        #QueHacemos .ComoLoHacemos[b-1s30rs31ws] {
+            margin-top: 40px;
+            font-size: 20px;
+        }
+
+            #QueHacemos .ComoLoHacemos h1[b-1s30rs31ws] {
+                margin-bottom: 30px;
+            }
+
+            #QueHacemos .ComoLoHacemos h5[b-1s30rs31ws] {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            #QueHacemos .ComoLoHacemos .col-3[b-1s30rs31ws] {
+                width: 100%;
+            }
+
+    #Servicios[b-1s30rs31ws] {
+        padding: 1rem;
+        font-size: 20px;
+    }
+
+        #Servicios .services[b-1s30rs31ws] {
+            margin-top: 10px;
+            display: block;
+        }
+
+            #Servicios .services div[b-1s30rs31ws] {
+                margin: 10% 0%;
+            }
+
+    #Tecnologias[b-1s30rs31ws] {
+        padding: 1rem;
+    }
+
+        #Tecnologias h1[b-1s30rs31ws] {
+            padding: 1rem;
+            margin-bottom: 30px;
+        }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+/*@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    #Inicio {
+        height: 1200px;
+    }
+
+        #Inicio .inicio-text {
+            height: 1200px;
+        }
+
+            #Inicio .inicio-text div {
+                margin-top: 40%;
+                width: 90%;
+                padding: 1rem;
+            }
+
+    #QueHacemos {
+        padding: 3rem;
+    }
+
+        #QueHacemos .col-6 {
+            width: 100%;
+        }
+
+        #QueHacemos .text {
+            margin-top: 20px;
+        }
+
+            #QueHacemos .text h1 {
+                font-size: 40px;
+            }
+
+            #QueHacemos .text p {
+                margin-top: 10px;
+                font-size: 25px;
+            }
+
+        #QueHacemos .ComoLoHacemos {
+            margin-top: 40px;
+            font-size: 20px;
+        }
+
+            #QueHacemos .ComoLoHacemos .col-3 {
+                width: 50%;
+            }
+
+                #QueHacemos .ComoLoHacemos .col-3 h5 {
+                    font-size: 25px;
+                }
+
+            #QueHacemos .ComoLoHacemos .col-3 p {
+                font-size: 25px;
+            }
+
+    #Servicios {
+        margin-top: 5%;
+        padding: 1rem;
+        font-size: 20px;
+    }
+
+        #Servicios .services {
+            margin-top: -5%;
+            display: block;
+            padding: 3rem;
+        }
+
+            #Servicios .services img {
+                width: 70%;
+            }
+
+            #Servicios .services div {
+                margin: 5% 0%;
+                justify-content: ;
+            }
+
+            #Servicios .services h5 {
+                font-size: 30px;
+            }
+
+            #Servicios .services p {
+                font-size: 30px;
+            }
+
+    #Tecnologias {
+        padding: 1rem;
+    }
+
+        #Tecnologias h1 {
+            padding: 1rem;
+            margin-bottom: 30px;
+        }
+
+        #Tecnologias .technologies {
+            overflow-x: scroll;
+            justify-content: stretch;
+        }
+
+            #Tecnologias .technologies div img {
+                width: 150px;
+                height: 150px;
+            }
 }
 
 @media screen and (min-width: 1201px) {
-}
+
+    #Servicios {
+        min-height: 100%;
+    }
+
+        #Servicios .services div {
+            min-height: fit-content;
+        }
+
+    #Tecnologias .technologies {
+        overflow-x: scroll;
+        justify-content: stretch;
+    }
+
+        #Tecnologias .technologies div img {
+            width: 150px;
+            height: 150px;
+        }
+
+}*/
 /* /Pages/QueHacemos.razor.rz.scp.css */
 
 img[b-41an2pdr8w] {
@@ -592,16 +915,25 @@ img[b-8bowclznbr] {
         display: block;
     }
 
-        #footer
-        .footer-contacto[b-541lxzd9jm],
-        .footer-services[b-541lxzd9jm],
-        .footer-social[b-541lxzd9jm] {
-            margin-bottom: 50px;
+        #footer .footer-contacto[b-541lxzd9jm],
+        #footer .footer-services[b-541lxzd9jm],
+        #footer .footer-social[b-541lxzd9jm] {
             margin: 0;
+            margin-bottom: 50px;
         }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #footer[b-541lxzd9jm] {
+        display: block;
+    }
+
+        #footer .footer-contacto[b-541lxzd9jm],
+        #footer .footer-services[b-541lxzd9jm],
+        #footer .footer-social[b-541lxzd9jm] {
+            margin: 0;
+            margin-bottom: 50px;
+        }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
