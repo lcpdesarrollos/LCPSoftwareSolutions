@@ -502,6 +502,7 @@ img[b-41an2pdr8w] {
 
 #QueHacemos[b-41an2pdr8w] {
     margin-top: 50px;
+    font-size: 20px;
 }
 
     #QueHacemos .container[b-41an2pdr8w] {
@@ -509,7 +510,7 @@ img[b-41an2pdr8w] {
     }
 
         #QueHacemos .container p[b-41an2pdr8w] {
-            font-size: 30px;
+            font-size: 25px;
             text-align: justify;
         }
 
@@ -529,16 +530,46 @@ img[b-41an2pdr8w] {
         align-self: center;
     }
 
-    .Proceso .text[b-41an2pdr8w]
-    {
-        text-align:center;
+    .Proceso .text[b-41an2pdr8w] {
+        text-align: center;
     }
 
     .Proceso p[b-41an2pdr8w] {
         text-align: justify;
         padding: 2rem;
+    }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    #QueHacemos .container p[b-41an2pdr8w] {
         font-size: 20px;
     }
+
+    .Proceso[b-41an2pdr8w] {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+        .Proceso .text[b-41an2pdr8w] {
+            margin-top: 10px;
+        }
+
+            .Proceso .text p[b-41an2pdr8w] {
+                font-size: 18px;
+            }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .Proceso[b-41an2pdr8w] {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+}
+
 /* /Pages/Services.razor.rz.scp.css */
 img[b-78wnp1tsbh] {
     width: 100%;
@@ -561,7 +592,7 @@ img[b-78wnp1tsbh] {
             box-shadow: 0px 0px 10px 0px #F7A928;
             padding: 1rem;
             margin: 1rem;
-            width: 1000px;
+            width: 100%;
         }
 
         #Servicios .services img[b-78wnp1tsbh] {
@@ -577,7 +608,81 @@ img[b-78wnp1tsbh] {
 
         #Servicios .services p[b-78wnp1tsbh] {
             text-align: justify;
+            padding-bottom: 5rem;
         }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    #Servicios[b-78wnp1tsbh] {
+        padding: 0.5rem;
+    }
+
+        #Servicios .services[b-78wnp1tsbh] {
+            display: block;
+            margin-top: 25px;
+        }
+
+            #Servicios .services div[b-78wnp1tsbh] {
+                padding: 1rem;
+                margin: 0rem;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    #Servicios[b-78wnp1tsbh] {
+        padding: 1rem;
+    }
+
+        #Servicios .services[b-78wnp1tsbh] {
+            display: block;
+            margin-top: 25px;
+        }
+
+            #Servicios .services div[b-78wnp1tsbh] {
+                padding: 1rem;
+                margin: 0rem;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #Servicios[b-78wnp1tsbh] {
+        padding: 2rem;
+    }
+
+        #Servicios .services[b-78wnp1tsbh] {
+            display: block;
+            margin-top: 25px;
+            width: 80%;
+            display: inline-block;
+        }
+
+            #Servicios .services div[b-78wnp1tsbh] {
+                padding: 1rem;
+                margin: 0rem;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    #Servicios[b-78wnp1tsbh] {
+        padding: 1rem;
+    }
+
+    #Servicios .services p[b-78wnp1tsbh] {
+        padding-bottom: 10rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+}
 /* /Pages/Technologies.razor.rz.scp.css */
 img[b-8bowclznbr] {
     width: 100%;
