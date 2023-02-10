@@ -5,6 +5,7 @@ img {
 
 #QueHacemos {
     margin-top: 50px;
+    font-size: 20px;
 }
 
     #QueHacemos .container {
@@ -12,7 +13,7 @@ img {
     }
 
         #QueHacemos .container p {
-            font-size: 30px;
+            font-size: 25px;
             text-align: justify;
         }
 
@@ -32,13 +33,43 @@ img {
         align-self: center;
     }
 
-    .Proceso .text
-    {
-        text-align:center;
+    .Proceso .text {
+        text-align: center;
     }
 
     .Proceso p {
         text-align: justify;
         padding: 2rem;
+    }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    #QueHacemos .container p {
         font-size: 20px;
     }
+
+    .Proceso {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+        .Proceso .text {
+            margin-top: 10px;
+        }
+
+            .Proceso .text p {
+                font-size: 18px;
+            }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .Proceso {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+}
+
