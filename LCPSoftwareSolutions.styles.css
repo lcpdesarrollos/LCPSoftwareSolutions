@@ -717,6 +717,7 @@ img[b-8bowclznbr] {
 
 #DescriptionTechnologies[b-8bowclznbr] {
     margin-top: 50px;
+    font-size: 20px;
 }
 
 .img-div-right[b-8bowclznbr] {
@@ -765,10 +766,10 @@ img[b-8bowclznbr] {
         .Proceso .text p[b-8bowclznbr] {
             text-align: justify;
             padding: 2rem;
-            font-size: 20px;
         }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
     #Tecnologias .technologies[b-8bowclznbr] {
         padding: 1rem;
     }
@@ -777,22 +778,44 @@ img[b-8bowclznbr] {
             width: 10px;
             height: 10px;
         }
+
+    .Proceso[b-8bowclznbr] {
+        display: block;
+    }
+
+        .Proceso .img[b-8bowclznbr] {
+            width: 100%;
+        }
+
+            .Proceso .img img[b-8bowclznbr] {
+                width: 150px;
+                height: 150px;
+            }
+
+        .Proceso .text[b-8bowclznbr] {
+            width: 100%;
+        }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    #Tecnologias .technologies img[b-8bowclznbr] {
-        width: 70px;
-        height: 70px;
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .Proceso .img img[b-8bowclznbr] {
+        width: 180px;
+        height: 180px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .Proceso .img img[b-8bowclznbr] {
+        width: 220px;
+        height: 220px;
+    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .Proceso .img img[b-8bowclznbr] {
+        width: 250px;
+        height: 250px;
+    }
 }
 /* /Shared/FooterPage.razor.rz.scp.css */
 
