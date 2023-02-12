@@ -1,80 +1,149 @@
 ﻿
 img {
     width: 100%;
+    background-size: cover;
 }
 
 #Contacto {
     display: flex;
     justify-content: center;
     background-color: rgba(63, 80, 96, 0.15);
-    padding: 2rem;
-    height: 600px;
+    padding: 5rem;
 }
 
-    #Contacto > div {
-        padding: 2rem;
-        width: 60%;
+    #Contacto .container {
         display: flex;
         justify-content: space-between;
     }
-    /*
-    #Contacto form {
-        background-color: rgba(0, 0, 0, .5);
-        padding: 2rem;
-        border-radius: 10px;
-        color: #000000;
-    }
-
-        #Contacto form input {
-            padding: 1rem;
-            margin-bottom: 2.5rem;
-        }
-
-        #Contacto form textarea {
-            padding: 1rem;
-            height: 300px;
-            margin-bottom: 2.5rem;
-        }*/
 
     #Contacto .informacion {
         background-color: rgba(0, 0, 0, .5);
         padding: 1rem;
         color: #ffffff;
         width: 40%;
-        font-size: 16px;
+        font-size: 20px;
+        text-align: center;
     }
 
-        #Contacto .informacion h4 {
-            text-align: center;
-            margin-bottom: 2rem;
+        #Contacto .informacion h1 {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-weight: 800;
         }
 
         #Contacto .informacion h6 {
-            text-align: center;
             color: #F7A928;
             font-weight: 800;
         }
 
         #Contacto .informacion p {
-            text-align: center;
-            margin-bottom: 2rem;
+            margin-top: 25px;
+            margin-bottom: 25px;
         }
 
-        #Contacto .informacion div {
-            text-align: center;
+        #Contacto .informacion img {
+            width: 50%;
+            margin-top: 25px;
+            margin-bottom: 25px;
         }
-
-            #Contacto .informacion div a img {
-                width: 200px;
-                background-size: cover;
-            }
 
     #Contacto .img {
         width: 55%;
     }
 
-        #Contacto .img img {
-            width: 100%;
-            background-size: cover;
-            height: 100%;
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    #Contacto {
+        padding: 1rem;
+    }
+
+        #Contacto .container {
+            display: block;
         }
+
+    #Contacto .informacion {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+        #Contacto .informacion img {
+            width: 100%;
+        }
+
+        #Contacto .img {
+            width: 100%;
+        }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    #Contacto {
+        padding: 1rem;
+    }
+
+        #Contacto .container {
+            display: block;
+        }
+
+        #Contacto .informacion {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+            #Contacto .informacion img {
+                width: 70%;
+            }
+
+        #Contacto .img {
+            width: 100%;
+        }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+        #Contacto .container {
+            display: block;
+        }
+
+        #Contacto .informacion {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+            #Contacto .informacion img {
+                width: 60%;
+            }
+
+        #Contacto .img {
+            width: 100%;
+        }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+
+    #Contacto .container {
+        display: block;
+    }
+
+    #Contacto .informacion {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+        #Contacto .informacion img {
+            width: 50%;
+        }
+
+    #Contacto .img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #Contacto .informacion img {
+        width: 60%;
+    }
+}
+
+

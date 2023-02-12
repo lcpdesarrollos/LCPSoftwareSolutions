@@ -4,115 +4,25 @@
 <TitlePage title="Contactanos" UrlImgae="images/contactanos/Contacto.jpg" />
 
 <section id="Contacto">
-    @*<div class="col-8 formulario">
-    <form>
-    <div class="row">
-    <div class="col-6">
-    <input type="text"
-    class="form-control"
-    placeholder="Nombre*"
-    @bind="@Name"
-    style="@(IsvalidateName ? string.Empty : "border: 2px solid red" )" />
-    </div>
-    <div class="col-6">
-    <input type="text"
-    class="form-control"
-    placeholder="Celular*"
-    @bind="@Celular"
-    style="@(IsvalidateCelular ? string.Empty : "border: 2px solid red" )" />
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-12">
-    <textarea class="form-control"
-    placeholder="Mensaje*"
-    @bind="@Mensaje"
-    style="@(IsvalidateMensaje ? string.Empty : "border: 2px solid red" )" />
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-12">
-    <input type="text"
-    class="form-control"
-    placeholder="Correo Electronico*"
-    @bind="@CorreoElectronico"
-    style="@(IsvalidateCorreoElectronico ? string.Empty : "border: 2px solid red" )" />
-    </div>
-    </div>
-    <div class="row">
-    <div class="col-12">
-    <input class="btn btn-warning btn-lg float-end" type="button" value="Enviar" @onclick="Send" />
-    </div>
-    </div>
-    </form>
-    </div>*@
-    <div>
+    <div class="container">
         <div class="informacion">
-            <h4>Información de Contacto</h4>
+            <h1>Información de Contacto</h1>
             <h6>CORREO ELECTRÓNICO</h6>
             <p>LCPDesarrollos@gmail.com</p>
             <h6>CONTACTANOS AL</h6>
             <p>+573052072324</p>
-            <div>
-                Chatea con nosotros:
-                <br />
-                <br />
-                <a href="https://m.me/159331382892204" target="_blank">
-                    <img src="images/contactanos/Messenger.png" />
-                </a>
-                <br />
-                <br />
-                <a href="https://api.whatsapp.com/send?phone=573052072324" target="_blank">
-                    <img src="images/contactanos/Whatsapp.png" />
-                </a>
-            </div>
+            <p>Chatea con nosotros:</p>
+            <a href="https://m.me/159331382892204" target="_blank">
+                <img src="images/contactanos/Messenger.png" />
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=573052072324" target="_blank">
+                <img src="images/contactanos/Whatsapp.png" />
+            </a>
         </div>
         <div class="img">
-            <img src="images/contactanos/ContactEmailMessage.jpg"/>
+            <img src="images/contactanos/ContactEmailMessage.jpg" />
         </div>
     </div>
 </section>
 
-@code {
 
-    private string? Name { get; set; }
-    private string? Celular { get; set; }
-    private string? Mensaje { get; set; }
-    private string? CorreoElectronico { get; set; }
-
-    private bool IsvalidateName = true;
-    private bool IsvalidateCelular = true;
-    private bool IsvalidateMensaje = true;
-    private bool IsvalidateCorreoElectronico = true;
-
-    void Send()
-    {
-        if (string.IsNullOrEmpty(Name))
-            IsvalidateName = false;
-        else
-            IsvalidateName = true;
-
-        if (string.IsNullOrEmpty(Celular))
-            IsvalidateCelular = false; 
-        else
-            IsvalidateCelular = true;
-
-        if (string.IsNullOrEmpty(Mensaje))
-            IsvalidateMensaje = false;
-        else
-            IsvalidateMensaje = true;
-
-        if (string.IsNullOrEmpty(CorreoElectronico))
-            IsvalidateCorreoElectronico = false;
-        else
-            IsvalidateCorreoElectronico = true;
-
-        if (IsvalidateName && IsvalidateCelular && IsvalidateMensaje && IsvalidateCorreoElectronico)
-        {
-            new Notificcion().SendEmail();
-        }
-
-
-    }
-
-}
