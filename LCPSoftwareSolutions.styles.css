@@ -1083,7 +1083,7 @@ a[b-uz2jg9oq3p] {
     font-size: 20px;
     z-index: 10;
     width: 100%;
-    position: absolute;
+    position: fixed;
 }
 
     .menu-top-2 a[b-uz2jg9oq3p] {
@@ -1103,6 +1103,8 @@ a[b-uz2jg9oq3p] {
     display: none;
     margin-right: 1rem;
 }
+
+
 
 @media screen and (min-width: 320px) and (max-width: 700px) {
 
@@ -1186,6 +1188,16 @@ a[b-uz2jg9oq3p] {
 
     .options[b-uz2jg9oq3p] {
         margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .open-close[b-uz2jg9oq3p] {
+        display: none;
+    }
+
+    .display[b-uz2jg9oq3p] {
+        display: none;
     }
 }
 /* /Shared/TitlePage.razor.rz.scp.css */
