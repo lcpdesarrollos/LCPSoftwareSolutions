@@ -3,7 +3,6 @@
 
 <div class="menu-top">
     <div class="logo">
-
         <img src="images/Logo-Rey-Guajiro.png" />
         <div class="logo-text">
             <a href="#">
@@ -27,6 +26,32 @@
         <a href="https://api.whatsapp.com/send?phone=573052072324" title="whatsApp" target="_blank">
             <bottom type="button" class="btn btn-whatsapp">
                 <img src="images/Icon_Whatsapp.svg" />
+                <span>
+                    3052072324
+                </span>
+            </bottom>
+        </a>
+    </div>
+    <div class="open-close-menu">
+        <bottom type="button" class="btn @strOpenMenu" @onclick="OpenMenu">
+            <img src="images/OpenMenu.png" />
+        </bottom>
+        <bottom type="button" class="btn @strCloseMenu" @onclick="CloseMenu">
+            <img src="images/CloseMenu.png" />
+        </bottom>
+    </div>
+</div>
+
+<div class="menu-top-2 @strDisplayMenu">
+    <div>
+        <a href="">Inicio</a>
+        <a href="quehacemos">Que Hacemos</a>
+        <a href="services">Servicios</a>
+        <a href="technologies">Tecnologías</a>
+        <a href="contactanos">Contactanos</a>
+        <a href="https://api.whatsapp.com/send?phone=573052072324" title="whatsApp" target="_blank">
+            <bottom type="button" class="btn btn-whatsapp">
+                <img src="images/Icon_Whatsapp.svg" />
                 3052072324
             </bottom>
         </a>
@@ -35,10 +60,30 @@
 
 @code {
     private string BaseUrl { get; set; }
+    private string strCloseMenu { get; set; }
+    private string strOpenMenu { get; set; }
+    private string strDisplayMenu { get; set; }
 
     protected override void OnInitialized()
     {
+        strOpenMenu = "open-close";
+        strCloseMenu = "display-none";
+        strDisplayMenu = "display-none";
         BaseUrl = HostEnvironment.BaseAddress;
         BaseUrl = BaseUrl.Substring(0, BaseUrl.Length - 1);
+    }
+
+    protected void OpenMenu()
+    {
+        strOpenMenu = "display-none";
+        strCloseMenu = "display-block";
+        strDisplayMenu = "display-block";
+    }
+
+    protected void CloseMenu()
+    {
+        strOpenMenu = "display-block";
+        strCloseMenu = "display-none";
+        strDisplayMenu = "display-none";
     }
 }

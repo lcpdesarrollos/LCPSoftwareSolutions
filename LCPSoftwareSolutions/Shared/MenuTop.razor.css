@@ -6,8 +6,8 @@
     align-items: center;
     background-color: #333;
     color: #fff;
-    font-size: 14px;
-    position:fixed;
+    font-size: 20px;
+    position: fixed;
     z-index: 10;
     width: 100%;
 }
@@ -35,7 +35,7 @@
 
     .logo .logo-text-2 {
         font-family: 'Roboto Condensed';
-        font-size: 16px;
+        font-size: 20px;
         margin-left: 0.3rem;
     }
 
@@ -59,53 +59,104 @@ a {
         text-decoration: underline;
     }
 
-.btn-whatsapp {
+.btn {
     color: #ffffff;
     border-color: #F7A928;
-    font-size: 14px;
 }
 
-    .btn-whatsapp:hover {
-        color: #fff;
-        background-color: #075E54;
-        border-color: #F7A928
+.btn-whatsapp:hover {
+    color: #fff;
+    background-color: #075E54;
+    border-color: #F7A928
+}
+
+.btn img {
+    width: 20px;
+}
+
+
+/* CSS Para el menu 2*/
+.menu-top-2 {
+    margin-top: 4rem;
+    display: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+}
+
+    .menu-top-2 a {
+        display: block;
     }
 
-    .btn-whatsapp img {
-        width: 20px;
-    }
+.display-none {
+    display: none;
+}
 
-@media (max-width: 1400px) {
+.display-block {
+    display: block;
+    margin-right: 1rem;
+}
+
+.open-close {
+    display: none;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+
     .logo {
-        margin-left: 5rem;
+        margin-left: 0.5rem;
     }
+
+        .logo .logo-text-2 {
+            font-size: 20px;
+        }
 
     .options {
-        margin-right: 5rem;
+        display: none;
+    }
+
+    .menu-top-2 div {
+        margin-left: 0.5rem;
+    }
+
+    .menu-top-2 a {
+        padding: 0.5rem;
+    }
+
+    .open-close {
+        display: block;
     }
 }
 
-@media (max-width: 1300px) {
+@media screen and (min-width: 701px) and (max-width: 900px) {
+
     .logo {
-        margin-left: 3rem;
+        margin-left: 0.5rem;
     }
+
+        .logo .logo-text-2 {
+            font-size: 15px;
+        }
 
     .options {
-        margin-right: 3rem;
+        font-size: 15px;
+        margin-right: 1rem;
+    }
+
+    a {
+        margin-left: 0.5rem;
+    }
+
+    .btn-whatsapp span {
+        display: none;
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
-    .logo {
-        margin-left: 2.5rem;
-    }
-
-    .options {
-        margin-right: 2rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) and (max-width: 1100px) {
     .logo {
         margin-left: 1rem;
     }
@@ -114,7 +165,27 @@ a {
         margin-right: 1rem;
     }
 
-    a {
-        margin-left: 0.5rem;
+    .btn-whatsapp span {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .options {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .options {
+        margin-right: 2rem;
     }
 }
